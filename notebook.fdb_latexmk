@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1780809495.01948 "notebook.tex" "notebook.pdf" "notebook" 1780809505.90321 0
+["pdflatex"] 1780809646.33939 "notebook.tex" "notebook.pdf" "notebook" 1780809656.16728 0
   "/etc/texmf/web2c/texmf.cnf" 1778858209.50446 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcit0900.tfm" 1136768653 1536 778f31c035899ac2dacaeb566cf2d78e ""
@@ -397,17 +397,17 @@
   "code/11-Geometry/03-Point Segment Distance.cpp" 1763660493 510 3771d114d713be1204e2c0880f0b1de4 ""
   "code/11-Geometry/04-Three Point Circle.cpp" 1763660512 727 a2116b35c734c0d0852c774cad37c03a ""
   "code/11-Geometry/05-Circle Line Intersection.cpp" 1763661432 791 2728e3af458d2b8ba74c4826f3af122f ""
-  "contents.tex" 1780809494.85664 31708 33ecfe02ee2dad8458e277b7eefdc486 ""
-  "cover.tex" 1763578203 680 d4259917f43ce7363ec60a0c2dca37e7 ""
+  "contents.tex" 1780809646.25087 31708 33ecfe02ee2dad8458e277b7eefdc486 ""
+  "cover.tex" 1780809640.78475 677 d0918d8a9c70856336f0da9bd76c0c09 ""
   "images/aiub-logo.png" 1761078561 205458 6e59aa9e588c9119d0edaa9a7ae17f16 ""
   "images/expected_value_1.png" 1761078561 19168 e96c2124d4d04c7f463f7c3cd1b716dd ""
   "images/grundy_tree.png" 1762422612 213407 54461440ede4b47153fa2bad7b237b8b ""
   "images/pascals-triangle.png" 1761078561 19428 c1730741624e97f3e3bd7b2bbdca3890 ""
   "images/shape-image-2.png" 1763661103 91416 7ff0d40554d9c22f612898ee8e59b2d0 ""
-  "notebook.aux" 1780809505.74388 18259 7681b6b39f91d04af6cc5f006b12bdd8 "pdflatex"
-  "notebook.out" 1780809505.74588 19982 1c32a90a7923a2e6ae69e3ee84232422 "pdflatex"
-  "notebook.tex" 1773171083 2899 f31ec54675e2aed47577ec6dbe3a4268 ""
-  "notebook.toc" 1780809505.74588 12676 34c8539133d75b951277b91d8d2e8957 "pdflatex"
+  "notebook.aux" 1780809655.99322 18259 7681b6b39f91d04af6cc5f006b12bdd8 "pdflatex"
+  "notebook.out" 1780809655.99722 19982 1c32a90a7923a2e6ae69e3ee84232422 "pdflatex"
+  "notebook.tex" 1780809629.86719 2902 7df435bad3db01009382b4c99d5308c8 ""
+  "notebook.toc" 1780809655.99836 12676 34c8539133d75b951277b91d8d2e8957 "pdflatex"
   (generated)
   "notebook.aux"
   "notebook.log"
