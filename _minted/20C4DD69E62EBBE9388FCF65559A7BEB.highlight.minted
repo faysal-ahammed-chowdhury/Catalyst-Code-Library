@@ -1,0 +1,28 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{c+c1}{// Given an Array, if any $a_i=x$ exist all $x$ are consecutive. Given $[L,R]$ Q times, Print Max Freq.}
+\PYG{k}{struct}\PYG{+w}{ }\PYG{n+nc}{node}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{first\PYGZus{}element}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{first\PYGZus{}element\PYGZus{}cnt}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{last\PYGZus{}element}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{last\PYGZus{}element\PYGZus{}cnt}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{max\PYGZus{}cnt}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+\PYG{n}{node}\PYG{+w}{ }\PYG{n+nf}{merge}\PYG{p}{(}\PYG{n}{node}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{node}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{if}\PYG{p}{(}\PYG{n}{l}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{p}{(}\PYG{n}{r}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{\PYGZhy{}1}\PYG{p}{)}\PYG{+w}{ }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{node}\PYG{+w}{ }\PYG{n}{ans}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{max\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{max}\PYG{p}{(}\PYG{n}{l}\PYG{p}{.}\PYG{n}{max\PYGZus{}cnt}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{max\PYGZus{}cnt}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{p}{(}\PYG{n}{l}\PYG{p}{.}\PYG{n}{last\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{=}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{max\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{max}\PYG{p}{(}\PYG{n}{ans}\PYG{p}{.}\PYG{n}{max\PYGZus{}cnt}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{.}\PYG{n}{last\PYGZus{}element\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{first\PYGZus{}element\PYGZus{}cnt}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{first\PYGZus{}element\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{.}\PYG{n}{first\PYGZus{}element\PYGZus{}cnt}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{p}{(}\PYG{n}{l}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{=}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{first\PYGZus{}element}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{first\PYGZus{}element\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{+}\PYG{o}{=}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{first\PYGZus{}element\PYGZus{}cnt}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{last\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{last\PYGZus{}element}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{last\PYGZus{}element\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{r}\PYG{p}{.}\PYG{n}{last\PYGZus{}element\PYGZus{}cnt}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k}{if}\PYG{p}{(}\PYG{n}{r}\PYG{p}{.}\PYG{n}{last\PYGZus{}element}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{=}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{.}\PYG{n}{last\PYGZus{}element}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{ans}\PYG{p}{.}\PYG{n}{last\PYGZus{}element\PYGZus{}cnt}\PYG{+w}{ }\PYG{o}{+}\PYG{o}{=}\PYG{+w}{ }\PYG{n}{l}\PYG{p}{.}\PYG{n}{last\PYGZus{}element\PYGZus{}cnt}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{ans}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

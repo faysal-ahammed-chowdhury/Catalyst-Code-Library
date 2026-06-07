@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n+nt}{\PYGZdq{}shell\PYGZus{}cmd\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}g++ \PYGZhy{}std=c++17 \PYGZhy{}o \PYGZbs{}\PYGZdq{}\PYGZdl{}file\PYGZus{}base\PYGZus{}name\PYGZbs{}\PYGZdq{} \PYGZbs{}\PYGZdq{}\PYGZdl{}file\PYGZbs{}\PYGZdq{} \PYGZam{}\PYGZam{} timeout 2.5s ./\PYGZbs{}\PYGZdq{}\PYGZdl{}file\PYGZus{}base\PYGZus{}name\PYGZbs{}\PYGZdq{} \PYGZlt{} input.txt \PYGZgt{} output.txt\PYGZdq{}}\PYG{p}{,}
+\PYG{n+nt}{\PYGZdq{}file\PYGZus{}regex\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZca{}(..[\PYGZca{}:]*):([0\PYGZhy{}9]+):?([0\PYGZhy{}9]+)?:? (.*)\PYGZdl{}\PYGZdq{}}\PYG{p}{,}
+\PYG{n+nt}{\PYGZdq{}working\PYGZus{}dir\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}\PYGZdl{}\PYGZob{}file\PYGZus{}path\PYGZcb{}\PYGZdq{}}\PYG{p}{,}
+\PYG{n+nt}{\PYGZdq{}selector\PYGZdq{}}\PYG{p}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}source.c, source.c++\PYGZdq{}}
+\end{MintedVerbatim}

@@ -1,0 +1,4 @@
+{\footnotesize
+Given a rooted tree, Upd: Add $d*k$ on $v$(subtree nodes of $u$), where $k$ will be given and $d$ is distance of $v$ from $u$. Query: Node Value/Subtree Sum (using ETT) or Path Value Sum (using HLD).
+\textbf{Idea:} $d_i=$ dis from root to $i$. Then, $\text{ans} = k \cdot \sum_{v \in \text{subtree}(u)} d_v$. It's hard to find $d_v$ for each $u$, rather we can find $d_v=$ dis of $v$ from root. Although some extra value added on each $v$ of subtree $u$ because of $d_v$ from root (not $u$), we can easily subtract them ($depth[u]*k$).
+}

@@ -1,0 +1,2 @@
+Constraints: N <= 100, W <= 1e9, val[i] <= 1000
+dp[i][cur_val] = min weight needed to achieve cur_val from i to n. if dp[1][val] <= W then val is a candidate ans. where val is all_possible_val (1 to 100*1000)

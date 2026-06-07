@@ -1,0 +1,15 @@
+{\footnotesize
+\begin{itemize}
+    \item Number of ways to partition a set of $n$ objects into $k$ non-empty subsets.
+
+    \item $S(n,k) = k\, S(n-1,k) + S(n-1,k-1)$,\quad
+          $S(0,0)=1$, \ $S(n,0)=S(0,n)=0$
+
+    \item $S(n,2) = 2^{n-1} - 1$
+
+    \item $\displaystyle S(n,k) = \frac{1}{k!} \sum_{j=0}^{k} (-1)^{k-j} \binom{k}{j} j^{n}$
+
+    \item $S(n,k) \cdot k!$ = number of ways to color $n$ nodes using colors from $1$ to $k$ such that each color is used at least once.
+\end{itemize}
+
+}

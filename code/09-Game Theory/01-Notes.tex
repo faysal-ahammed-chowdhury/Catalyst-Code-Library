@@ -1,0 +1,14 @@
+{\footnotesize
+\begin{itemize}
+\item First Write a Bruteforce Solution
+\item If game is not impartial. Greedy, DP may work
+\item Nim = All XOR
+\item Misere Nim (Last player who took a stone loses) = Nim + (Corner Case: if all (odd) piles are 1 you lose)
+\item Bogus Nim = Nim
+\item Staircase Nim (Given an array where $a[i]$ is the number of stones at index $i$. Move: Choose any stones $(>1)$ from index $i$ $(i > 1)$ and move them to index $i - 1$.
+) = Odd indexed pile Nim (Even indexed pile doesnt matter, as one player can give bogus moves to drop all even piles to ground)
+\item \textbf{Sprague-Grundy:} Every impartial game under the normal play convention is equivalent to a ONE-HEAP GAME of NIM. \\
+Grundy value can be calculate by DP/Pattern.
+\includegraphics[width=0.5\linewidth]{images/grundy_tree.png}
+\end{itemize}
+}

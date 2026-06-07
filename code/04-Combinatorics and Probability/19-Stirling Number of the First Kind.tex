@@ -1,0 +1,16 @@
+{\footnotesize
+\begin{itemize}
+    \item Count permutation according to their number of cycles.
+
+    \item $S(n,k)$ counts the number of permutations of $n$ elements with $k$ disjoint cycles.
+
+    \item $S(n,k) = (n-1) S(n-1,k) + S(n-1,k-1)$,\quad
+          $S(0,0)=1$, \ $S(n,0)=S(0,n)=0$
+
+    \item $S(n,1) = (n-1)!$
+
+    \item $S(n,n-1) = \binom{n}{2}$
+
+    \item $\displaystyle \sum_{k=0}^{n} S(n,k) = n!$
+\end{itemize}
+}

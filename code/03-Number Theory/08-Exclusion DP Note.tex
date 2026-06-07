@@ -1,0 +1,21 @@
+{\footnotesize
+\begin{itemize}
+    \item Here, 
+    $f[i]$ = how many pairs/k-tuple such that their gcd is $i$ or it’s multiple (count of pairs those are divisible by $i$).
+    \item $g[i]$ = how many pairs/k-tuple such that their gcd is $i$.
+    \item $g[i]$ = $f[i] - \sum_{i \mid j} g[j]$.
+    \item \textbf{Sum of all pair gcd:}
+
+    We know, how many pairs are there such that their gcd is $i$ for every $i$ (1 to $n$). So now,  
+    $\sum_{i=1}^{n} g[i] * i$.
+
+    \item \textbf{Sum of all pair lcm $(1<=i,j<=n)$:}
+    We know, 
+    $\text{lcm}(a, b) = \frac{a * b}{\text{gcd}(a,b)}$. 
+    \item Now, $f[i]$ = All pair product sum of those, whose gcd is $i$ or it’s multiple. 
+    \item $g[i]$ = All pair product sum of those, whose gcd is $i$.
+    \item $\text{Ans} = \sum_{i=1}^{n} \frac{g[i]}{i}$.
+
+    \item All pair product sum = $(a_1 + a_2 + \cdots + a_n) * (a_1 + a_2 + \cdots + a_n)$
+\end{itemize}
+}

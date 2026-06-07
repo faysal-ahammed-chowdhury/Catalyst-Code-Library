@@ -1,0 +1,34 @@
+\vspace{-4.5mm}
+{\footnotesize
+\begin{itemize}
+\item Sum of all pair sums: $\sum_{i=1}^{n} \sum_{j=1}^{n} (a_i + a_j)$\\
+Every element will be added $2n$ times.
+$\sum_{i=1}^{n} (2 \times n \times a_{i}) = 2 \times n \times \sum_{i=1}^{n} a_{i}.$
+\item Sum of all subarray sums — \\
+$\sum_{i=1}^{n} \left(a_{i} \times i \times (n - i + 1)\right).$
+\item Sum of all Subsets sums —
+$\sum_{i=1}^{n} \left(2^{n-1} \times a_{i}\right).$
+\item Product of all pair product —
+$\prod_{i=1}^{n} \left(a_{i}^{2 \times n}\right).$
+\item XOR of subarray XORS — How many subarrays does an element have? ($i \cdot (n - i + 1)$ times). If subarray count is odd then this element can contribute in total XORs.
+\item Sum of max minus min over all subset — Sort the array. $Min = 2^{\,n-i}, \ Max = 2^{\,i-1}$. $\sum_{i=1}^{n} \big(a_i \cdot 2^{\,i-1} - a_i \cdot 2^{\,n-i}\big)$
+\item Sum using bits —
+$\sum_{k=0}^{30} \left(cnt_{k}[1] \times 2^{k}\right).$
+\item Sum of Pair XORs — XOR will 1 if two bits
+are different
+$\sum_{k=0}^{30} \left(cnt_{k}[0] \times cnt_{k}[1] \times 2^{k}\right).$
+\item Sum of Pair ANDs — 
+$\sum_{k=0}^{30} \left(cnt_{k}[1]^2 \times 2^{k}\right).$
+\item Sum of Pair ORs — \\
+$\sum_{k=0}^{30} \left( \left( cnt_{k}[1]^{2} + 2 \times cnt_{k}[1] \times cnt_{k}[0] \right) \times 2^{k} \right).$
+\item Sum of Subset XORs — where $cnt0 != 0$
+$\sum_{k=0}^{30} \left(2^{cnt_{k}[1] + cnt_{k}[0] - 1} \times 2^{k}\right).$
+\item Sum of Subset ANDs — 
+$\sum_{k=0}^{30} \left( \left(2^{cnt_{k}[1]} - 1\right) \times 2^{k} \right).$
+\item Sum of Subset ORs — \\
+$\sum_{k=0}^{30} \left( \left(2^{n} - 2^{cnt_{k}[0]}\right) \times 2^{k} \right).$
+\item Sum of subarray XORs — Convert to prefix xor, then solve for pairs.
+\item Sum of product of all subsequence — $\prod_{i=1}^{n} (a_i+1)-1$.
+Example array — $[a,b]$ the subsequences are $\{a\}, \{b\}, \{a,b\}$ so ans is $a + b + (a \cdot b)$
+\end{itemize}
+}

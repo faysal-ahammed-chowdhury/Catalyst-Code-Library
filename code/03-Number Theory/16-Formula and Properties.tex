@@ -1,0 +1,24 @@
+{\footnotesize
+\begin{itemize}
+\item $\phi(n) = n \cdot \frac{p_1 - 1}{p_1} \cdot \frac{p_2 - 1}{p_2} \cdots$
+\item $\phi(p^e) = p^e - \frac{p^e}{p} = p^e \cdot \frac{p-1}{p}$
+\item For $n > 2$, $\phi(n)$ is always even.
+\item $\sum_{d \mid n} \phi(d) = n$
+\item NOD: $(e_1 + 1) \cdot (e_2 + 1) \cdots$
+\item SOD: $\frac{p_1^{e_1 + 1} - 1}{p_1 - 1} \cdot \frac{p_2^{e_2 + 1} - 1}{p_2 - 1} \cdots$
+% \item $\log(a \cdot b) = \log(a) + \log(b)$
+% \item $\log(a^x) = x \cdot \log(a)$
+% \item $\log_a(x) = \frac{\log_b(x)}{\log_b(a)}$
+\item \footnotesize \textbf{Digit Count of n: } $\lfloor \log_{10}(n) \rfloor + 1$
+\item \footnotesize \textbf{Arithmetic Progression Sum: } $\frac{n}{2} \cdot (a + p), \quad \frac{n}{2} \cdot (2a + (n-1)d)$
+\item \footnotesize \textbf{Geometric Sum: } $S_n = a \cdot \frac{r^n - 1}{r - 1}$
+\item $(1^2 + 2^2 + \cdots + n^2) = \frac{n (n + 1) (2n + 1)}{6}$
+\item $(1^3 + 2^3 + \cdots + n^3) = \frac{n^2 (n + 1)^2}{4}$
+\item $(2^2 + 4^2 + \cdots + (2n)^2) = \frac{2 n (n + 1) (2n + 1)}{3}$
+\item $(1^2 + 3^2 + \cdots + (2n - 1)^2) = \frac{n (2n - 1) (2n + 1)}{3}$
+\item $(2^3 + 4^3 + \cdots + (2n)^3) = 2 n^2 (n + 1)^2$
+\item $(1^3 + 3^3 + \cdots + (2n - 1)^3) = n^2 (2n^2 - 1)$
+\item For any number $n$ and bases $> \sqrt{n}$, there will be no representation where the number contains 0 at its second least significant digit. So it is enough to check for bases $\le \sqrt{n}$.
+\item For some $x$ and $y$, let's try to find all $m$ such that $x \bmod m \equiv y \bmod m$. We can rearrange the equation into $(x - y) \equiv 0 \pmod{m}$. Thus, if $m$ is a factor of $|x - y|$, then $x$ and $y$ will be equal modulo $m$.
+\end{itemize}
+}

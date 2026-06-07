@@ -1,0 +1,4 @@
+{\footnotesize
+\textbf{Problem:} Median of All Sub-Array Medians \\
+\textbf{Idea:} Total Subarray, $k = \frac{n(n + 1)}{2}$. We need all subarray medians, sort them and get $\frac{k}{2}+1$. Now, Binary Search on Answer. ok() will return true if $cnt >= \frac{k}{2}+1$, where $cnt=$ count of subarrays whose median is $<=mid$. If true, $r=mid-1$
+}

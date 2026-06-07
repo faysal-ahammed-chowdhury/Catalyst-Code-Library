@@ -1,0 +1,14 @@
+{\footnotesize
+{
+    It is easier to explain by considering only palindromes centered at indicies (so, odd length), the idea is the same anyway. For each index $i$, $r_i$ will be the longest radius of a palindrome centered there (in other words, the amount of palindromes centered at index $i$). Directly from manacher, this takes $\mathcal{O}(n)$ to calculate. \\
+
+For a query $[l, r]$, we first compute $m = \frac{l+r}{2}$. Now we want to calculate
+\begin{align*}
+    \sum_{i=l}^{m} \min(i - l + 1, r_i) + 
+    \sum_{i=m+1}^{r} \min(r - i + 1, r_i) \\
+    \sum_{i=l}^{m} \min(i - l + 1, r_i) =
+    \sum_{i=l}^{m} i + \min(1 - l, r_i - i).
+\end{align*}
+The sum over $i$ can be found in constant time. As for the other term, if we create some array $r'_{i} = r_i - i$ during the preprocessing, then the queries are asking for some over range of $\min(C, r'_{i})$ where $C$ is constant. You can solve this in $\mathcal{O}(\log n)$ per query using wavelet tree.
+}
+}

@@ -1,0 +1,97 @@
+\documentclass[8pt, a4paper, onesided]{article}
+\usepackage[landscape, left=0.1in, right=0.1in, top=0.25in, bottom=0.1in, headsep=0.05in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{fvextra}
+\usepackage{xcolor}
+\usepackage{tocloft}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{minted}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{cancel}  
+
+\usemintedstyle{default}
+% \setlist[itemize]{topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt, left=0pt}
+\setlist[itemize]{topsep=0pt, partopsep=0pt, itemsep=0pt, left=0pt}
+% \setlist[itemize]{itemsep=0pt,left=0pt}
+\setlength{\columnsep}{0.4cm}
+\setlength{\columnseprule}{0.1pt}
+\setlength{\parskip}{-4.5mm plus 0.5mm minus 0.5mm}
+
+\setlength{\fboxsep}{1pt}%
+\setlength{\fboxrule}{0.01pt}%
+
+\titleformat{\section}{\normalfont\fontsize{10}{15}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{10}{13}\bfseries}{\thesubsection}{0.5em}{}
+
+\renewcommand\cftsecfont{\fontsize{10}{11}\bfseries}
+\renewcommand\cftsecpagefont{\fontsize{10}{11}\mdseries}
+\renewcommand\cftsubsecfont{\fontsize{8}{9}\mdseries}
+\renewcommand\cftsubsecpagefont{\fontsize{8}{9}\mdseries}
+\renewcommand\cftsecafterpnum{\vspace{-0.5ex}}
+\renewcommand\cftsubsecafterpnum{\vspace{-0.5ex}}
+
+\renewcommand{\theFancyVerbLine}{
+  \sffamily\textcolor[rgb]{1.5,0.5,0.5}{\scriptsize\arabic{FancyVerbLine}}}
+  
+\lstset{escapechar=\$}
+
+\setminted{breaklines, breaksymbolleft=\space,
+breakafter={,+-*;>=}, breakbefore={</}, tabsize=2, obeytabs, mathescape, frame=topline, framesep=3pt, fontsize=\fontsize{9}{9}}
+
+% Title, author, date removed
+% \title{\vspace{-2.5ex}Aiub\_Eclipse Team Notebook}
+% \author{Kazi Shoaib Ahmed Saad,\\Faysal Ahammed Chowdhury,\\Md. Siyam Talukder}
+% \date{}
+
+\graphicspath{ {./images} }
+
+\def\Hrule{\vskip 3pt\hrule\vskip 3pt}
+\def\sfrac#1 #2 {\hbox{$#1 \over #2$}}
+\def\abs{\mathop{\rm abs}\nolimits}
+
+% -----------------------------
+% Header setup (will appear on top in landscape)
+% -----------------------------
+\pagestyle{fancy}
+\fancyhf{}  % clear all header/footer fields
+\fancyhead[L]{Aiub\_Eclipse}  % left
+\fancyhead[C]{American International University-Bangladesh}  % center
+\fancyhead[R]{\thepage}       % right
+\fancyfoot{}                   % empty footer
+% \renewcommand{\headrulewidth}{0.0pt}  % <-- removes the horizontal line
+
+\fancypagestyle{plain}{
+    \fancyhf{} 
+    \fancyhead[L]{Aiub\_Eclipse}
+    \fancyhead[C]{American International University-Bangladesh}
+    \fancyhead[R]{\thepage}
+    \fancyfoot{}
+}
+
+\begin{document}
+
+% Include cover page
+\input{cover.tex}
+
+\begin{multicols*}{4}
+
+% Adjust spacing since title removed
+\vspace{-2ex}
+\tableofcontents
+ 
+\raggedbottom
+\input contents.tex
+
+\end{multicols*}
+\input Geometry/main.tex
+
+\end{document}

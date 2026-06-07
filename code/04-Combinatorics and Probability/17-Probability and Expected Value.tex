@@ -1,0 +1,64 @@
+\vspace{-5.5mm}
+{\footnotesize
+\begin{itemize}
+\item Expected Value: $E = \frac{\text{Sum of all possible values}}{\text{Total number of outcomes}}$
+\item Expected Value: $E = \sum_{i=1}^{n} P_i \cdot i$
+\item Variance: $V(x) = E(x^2) - \{E(x)\}^2$
+\item Expected Value with DP: $E(i) = \sum P(i \to j) \times (R(i \to j) + E(j))$ Where $R()$ is Immediate Reward(cost/count)
+\item {
+    Linearity of Expectation: 
+    \begin{itemize}
+    \item $E[X + Y] = E[X] + E[Y]$
+    \item $E[\text{Total}] = E[I_1] + E[I_2] + \dots = \sum P(I_i=1)$
+    \end{itemize}
+
+    We need to define the Indicator Random Variable (I) correctly. Some Examples below —
+
+    \textbf{Problem-1:} Find $E[\text{correct hats}]$ in a random permutation. Indicator $I_i$: "Does person $i$ get their own hat?"\\
+    \textbf{Problem-2:} Find $E[\text{total inversions}]$ in a random permutation. Indicator $I_{ij}$: "Is pair $(i, j)$ an inversion?"\\
+    \textbf{Problem-3:} Given a string $S$, delete a random index until it becomes empty. Find the expected count of palindromes seen (exclude $S$, include empty string). Indicator $I_L$: "Is the string of length $L$ a palindrome?"\\
+    \textbf{Problem-4:} Pick $N$ random integers from $[1, k]$. Merge consecutive equal values (e.g., $1,1,2,2,1,1 \to 1,2,1$). Find the expected final length. Indicator $I_i$: "Is item $i$ different from item $i-1$?"
+}
+\item To get two consecutive heads, what is the expected number of tosses?
+\includegraphics[width=0.9\linewidth]{images/expected_value_1.png}
+\item To get $n$ heads, what is the expected number of tosses? Let’s define: to get $n$ heads, we need to toss $E(n)$ times. Now — I can get a head; I need to toss $E(n-1)$ more times, or if I get a tail; I need to toss $E(n)$ times. So, the recurrence is: $E(n) = 0.5 \cdot (1 + E(n-1)) + 0.5 \cdot (1 + E(n))$
+% \includegraphics[width=\linewidth]{images/expected_value_2.png}
+\item {
+    You have $n$ bulbs, all of which are initially off. In each move, you randomly select one bulb. If the selected bulb is \textbf{off}, you toss a coin:
+    \begin{itemize}
+        \item If you get head, you turn it on.
+        \item If you get tail, you do nothing.
+    \end{itemize}
+
+    If the bulb is already \textbf{on}, you skip that move (nothing happens).
+
+    \par % Use par for a clean paragraph break
+    Now, what is the expected number of moves required to turn all bulbs on?
+
+    The coin is not fair — the probability of getting tail is $p$.
+    This problem can also be solved recursively.
+
+    \par
+    Let's assume at some moment, $x$ bulbs are already on, and the expected number of moves needed from here is $e(x)$.
+
+    The probability of picking an already on bulb is $\frac{x}{n}$.
+    In that case, the expected number of moves is $\frac{x}{n} \times (1 + e(x))$.
+
+    The probability of picking an off bulb is $\frac{n-x}{n}$.
+
+    \par
+    Now two things can happen:
+    \begin{itemize}
+        \item With probability $p$, you get tail, so you stay at the same state ($e(x)$ more moves).
+        \item With probability $(1-p)$, you get head, so one more bulb turns on ($e(x+1)$ moves from there).
+    \end{itemize}
+
+    \par
+    So, the recurrence relation is:
+    \begin{align*}
+    e(x) &= \frac{x}{n} (1 + e(x)) + \\
+         & \quad \frac{n-x}{n} \big( p(1 + e(x)) + (1-p)(1 + e(x+1)) \big)
+    \end{align*}
+}
+\end{itemize}
+}

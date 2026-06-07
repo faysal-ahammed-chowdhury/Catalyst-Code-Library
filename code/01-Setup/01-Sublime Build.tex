@@ -1,0 +1,8 @@
+% \vspace{-4.5mm}
+% \vspace{-1em}
+\begin{minted}[breaklines,frame=none,framesep=0pt]{json}
+"shell_cmd": "g++ -std=c++17 -o \"$file_base_name\" \"$file\" && timeout 2.5s ./\"$file_base_name\" < input.txt > output.txt",
+"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+"working_dir": "${file_path}",
+"selector": "source.c, source.c++"
+\end{minted}

@@ -1,0 +1,1034 @@
+
+\usemintedstyle{default}
+\setlist[itemize]{noitemsep, topsep=2pt, partopsep=0pt, left=0pt}
+\setlength{\columnsep}{0.4cm}
+\setlength{\columnseprule}{0.1pt}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\setlength{\fboxsep}{1pt}%
+\setlength{\fboxrule}{0.01pt}%
+
+\titleformat{\section}{\normalfont\fontsize{10}{12}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{9}{11}\bfseries}{\thesubsection}{0.5em}{}
+
+\begin{multicols*}{4}
+\vspace{-1ex}
+\raggedright
+
+
+
+% ===== CONTENT FROM IMAGE =====
+
+\section*{G\_MATH \& H\_MATH[9-10]}
+
+\section*{\ Symmetric difference of two sets is denoted by:}
+\[
+A \ \Delta \ B = (A - B) \cup (B - A) = (A \cup B) - (A \cap B)
+\]
+
+\section*{\ De-Morgan's laws:}
+\begin{enumerate}
+    \item[i.] \( (A \cup B)' = A' \cap B' \)
+    \item[ii.] \( (A \cap B)' = A' \cup B' \)
+    \item[iii.] \( A - (B \cap C) = (A - B) \cup (A - C) \)
+    \item[iv.] \( A - (B \cup C) = (A - B) \cap (A - C) \)
+\end{enumerate}
+
+
+\textbf{\small If $A$, $B$ and $C$ are any three sets, then:}
+\begin{enumerate}
+    \item[i.] \( A \cap (B - C) = (A \cap B) - (A \cap C) \)
+    \item[ii.] \( A \cap (B \ \Delta \ C) = (A \cap B) \ \Delta \ (A \cap C) \)
+    \item[iii.] \( P(A) \cap P(B) = P(A \cap B) \)
+    \item[iv.] \( P(A) \cup P(B) = P(A \cup B) \)
+    \item[v.] If \( P(A) = P(B) \Rightarrow A = B \)
+    \newline where, \( P(A) \) is the power set of \( A \).
+    \item[vi.] \( A \subseteq A \cup B, \quad B \subseteq A \cup B, \quad A \cup B \subseteq A \)
+    \item[vii.] \( A \cap B \subseteq B \)
+    \item[viii.] \( A - B = A \cap B', \quad B - A = B \cap A' \)
+    \item[ix.] \( (A - B) \cap B = \phi \)
+    \item[x.] \( (A - B) \cup B = A \cup B \)
+    \item[xi.] \( A \subseteq B \Leftrightarrow B' \subseteq A' \)
+    \item[xii.] \( A - B = B' - A' \)
+    \item[xiii.] \( (A \cup B) \cap (A \cup B') = A \)
+    \item[xiv.] \( A \cup B = (A - B) \cup (B - A) \cup (A \cap B) \)
+    \item[xv.] \( A - (A - B) = A \cap B \)
+    \item[xvi.] \(A-B=B-A\Leftrightarrow A = B \ \text{and} \ A \cup B = A \cap B \Rightarrow A = B \)
+\end{enumerate}
+
+\textbf{Results on cardinal number of some sets:}
+If $A$, $B$ and $C$ are finite sets and $U$ be the universal set, then
+\begin{enumerate}
+    \item[i.] \( n(A \cup B) = n(A) + n(B) \) if $A$ and $B$ are disjoint sets.
+    \item[ii.] \( n(A \cup B) = n(A) + n(B) - n(A \cap B) \)
+    \item[iii.] {\small \( n(A \cup B) = n(A - B) + n(B - A) + n(A \cap B) \)}
+\end{enumerate}
+
+
+
+\section*{\ Algebraic Formulae:}
+
+\subsection*{ Square Identities}
+\begin{itemize}
+    \item $(a + b)^2 = a^2 + 2ab + b^2$
+    \item $(a - b)^2 = a^2 - 2ab + b^2$
+    \item $a^2 - b^2 = (a + b)(a - b)$
+    \item $(x + a)(x + b) = x^2 + (a + b)x + ab$
+\end{itemize}
+
+\subsection*{ Three Variables Identities}
+\begin{itemize}
+    \item  $(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ac$
+    \item  $a^2 + b^2 + c^2 = (a + b + c)^2 - 2(ab + bc + ac)$
+    \item  $2(ab + bc + ac) = (a + b + c)^2 - (a^2 + b^2 + c^2)$
+\end{itemize}
+
+\subsection*{ Cube Identities}
+\begin{itemize}
+    \item  $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
+    \item  $(a + b)^3 = a^3 + b^3 + 3ab(a + b)$
+    \item  $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$
+    \item  $(a - b)^3 = a^3 - b^3 - 3ab(a - b)$
+    \item  $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
+    \item  $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$
+\end{itemize}
+
+\subsection*{ Special Three-Variable Cube}
+\begin{itemize}
+    \item  $a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)$
+    \item  $a^3 + b^3 + c^3 - 3abc = \frac{1}{2}(a + b + c)[(a - b)^2 + (b - c)^2 + (c - a)^2]$
+    \item  $(a - b)^3 + (b - c)^3 + (c - a)^3 = 3(a - b)(b - c)(c - a)$
+\end{itemize}
+
+\subsection*{ Corollaries}
+\begin{itemize}
+    \item  If $a + b + c = 0$, then $a^3 + b^3 + c^3 = 3abc$
+    \item  If $a^3 + b^3 + c^3 = 3abc$, then $a + b + c = 0$ or $a = b = c$
+    \item  $a^2 + b^2 = (a + b)^2 - 2ab$
+    \item  $a^2 + b^2 = (a - b)^2 + 2ab$
+    \item  $(a + b)^2 = (a - b)^2 + 4ab$
+    \item  $(a - b)^2 = (a + b)^2 - 4ab$
+    \item  $a^2 + b^2 = \frac{(a + b)^2 + (a - b)^2}{2}$
+    \item  $ab = \left(\frac{a + b}{2}\right)^2 - \left(\frac{a - b}{2}\right)^2$
+    \item  $a^3 + b^3 = (a + b)^3 - 3ab(a + b)$
+    \item  $a^3 - b^3 = (a - b)^3 + 3ab(a - b)$
+\end{itemize}
+
+
+\section*{Binomial Expansion}
+\subsection*{ Pascal's Triangle}
+
+\scriptsize % Smaller font size for the table
+\begin{tabular}{@{}clc@{}}
+\toprule
+\textbf{n} & \textbf{Expansion} & \textbf{Terms} \\
+\midrule
+0 & \(1\) & 1 \\
+1 & \(1 + y\) & 2 \\
+2 & \(1 + 2y + y^2\) & 3 \\
+3 & \(1 + 3y + 3y^2 + y^3\) & 4 \\
+4 & \(1 + 4y + 6y^2 + 4y^3 + y^4\) & 5 \\
+5 & \(1 + 5y + 10y^2 + 10y^3 + 5y^4 + y^5\) & 6 \\
+\bottomrule
+\end{tabular}
+\raggedright
+
+\begin{align*}
+(a + b)^n &= \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k \\
+(1 + y)^n &= \binom{n}{0} + \binom{n}{1}y + \binom{n}{2}y^2 + \cdots + \binom{n}{n}y^n
+\end{align*}
+
+\section*{Logarithms}
+
+\textbf{Basic Definitions:}
+\begin{itemize}
+    \item $\log_a b = x$ if and only if $a^x = b$
+    \item $\log_a (a^x) = x$
+    \item $a^{\log_a b} = b$
+\end{itemize}
+
+\textbf{Change of Base Formula:}
+\begin{itemize}
+    \item $\log_a M = \frac{\log_b M}{\log_b a}$
+    \item $\log_a b = \frac{1}{\log_b a}$
+\end{itemize}
+
+\textbf{Important Theorems:}
+\begin{enumerate}
+    \item[(i)] If $x > 0$, $y > 0$ and $a \neq 1$ then $x = y$ if and only if $\log_a x = \log_a y$
+    \item[(ii)] If $a > 1$ and $x > 1$ then $\log_a x > 0$
+    \item[(iii)] If $0 < a < 1$ and $0 < x < 1$ then $\log_a x > 0$
+    \item[(iv)] If $a > 1$ and $0 < x < 1$ then $\log_a x < 0$
+\end{enumerate}
+
+
+
+
+
+
+
+
+\section*{Angles: Radians and Degrees}
+
+\subsection*{Conversions}
+\begin{itemize}
+    \item Radians to degrees: $\theta^\circ = \theta_{\text{rad}} \times \frac{180}{\pi}$
+    \item Degrees to radians: $\theta_{\text{rad}} = \theta^\circ \times \frac{\pi}{180}$
+    \item Full circle: $360^\circ = 2\pi$ radians
+    \item Half circle: $180^\circ = \pi$ radians
+    \item Right angle: $90^\circ = \frac{\pi}{2}$ radians
+\end{itemize}
+
+\subsection*{Polar Coordinates}
+\begin{itemize}
+    \item Conversion to Cartesian: $x = r\cos\theta$, $y = r\sin\theta$
+    \item Conversion from Cartesian: $r = \sqrt{x^2 + y^2}$, $\theta = \tan^{-1}\left(\frac{y}{x}\right)$
+    \item Distance in polar: $d = \sqrt{r_1^2 + r_2^2 - 2r_1r_2\cos(\theta_2 - \theta_1)}$
+\end{itemize}
+
+Rotation by angle $\theta$:
+    $\begin{cases}
+    x' = x\cos\theta - y\sin\theta\\
+    y' = x\sin\theta + y\cos\theta
+    \end{cases}$
+    
+
+% Coordinate Geometry Macros for Competitive Programming
+\newcommand{\point}[2]{(#1, #2)}
+\newcommand{\dist}[2]{\sqrt{(#1)^2 + (#2)^2}}
+\newcommand{\manhattan}[2]{|#1| + |#2|}
+\newcommand{\chebyshev}[2]{\max(|#1|, |#2|)}
+
+% Line Formulas
+\newcommand{\slope}[4]{\frac{#4 - #2}{#3 - #1}}
+\newcommand{\lineeq}[4]{y - #2 = \frac{#4 - #2}{#3 - #1}(x - #1)}
+\newcommand{\lineeqgen}{ax + by + c = 0}
+\newcommand{\distancepointline}[5]{%
+  \frac{\left|#1#4 + #2#5 + #3\right|}{\sqrt{#1^{2} + #2^{2}}}%
+}
+
+% Vector Operations
+\newcommand{\vecmagnitude}[2]{\sqrt{#1^2 + #2^2}}
+\newcommand{\dotproduct}[4]{#1\cdot#3 + #2\cdot#4}
+\newcommand{\crossproduct}[4]{#1\cdot#4 - #2\cdot#3}
+
+% Geometry Shortcuts
+\newcommand{\ccw}[6]{(#3 - #1)*(#6 - #2) - (#5 - #2)*(#4 - #1)} % Cross product for orientation
+\newcommand{\online}[6]{\ccw{#1}{#2}{#3}{#4}{#5}{#6} == 0} % Check if point lies on segment
+\newcommand{\onsegment}[6]{\online{#1}{#2}{#3}{#4}{#5}{#6} \land \min(#1,#3) \leq #5 \leq \max(#1,#3) \land \min(#2,#4) \leq #6 \leq \max(#2,#4)}
+
+
+\textbf{\newline Coordinate Geometry } 
+\begin{itemize}
+    \item \textbf{Point:} $P = \point{x}{y}$
+    \item \textbf{Distance between two points:} $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$
+    \item \textbf{Manhattan distance:} $d_m = |x_2-x_1| + |y_2-y_1|$
+    \item \textbf{Chebyshev distance:} $d_c = \max(|x_2-x_1|, |y_2-y_1|)$
+\end{itemize}
+
+\textbf{Line Geometry Formulas}
+\begin{itemize}
+    \item \textbf{Slope:} $m = \slope{x_1}{y_1}{x_2}{y_2}$
+    \item \textbf{Line equation (point-slope):} $\lineeq{x_1}{y_1}{x_2}{y_2}$
+    \item \textbf{General form:} $\lineeqgen$
+    \item \textbf{Distance from point to line:} $\frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$
+    
+    \item \textbf{Parallel lines:} $m_1 = m_2$ or $a_1b_2 = a_2b_1$
+    \item \textbf{Perpendicular lines:} $m_1 \cdot m_2 = -1$ or $a_1a_2 + b_1b_2 = 0$
+    
+    \item \textbf{Distance between parallel lines:} $\frac{|c_2 - c_1|}{\sqrt{a^2 + b^2}}$
+    \item \textbf{Angle between two lines:} $\theta = \tan^{-1}\left|\frac{m_2 - m_1}{1 + m_1m_2}\right|$
+    
+    \item \textbf{Foot of perpendicular:} $\left(\frac{b(bx_0 - ay_0) - ac}{a^2 + b^2}, \frac{a(-bx_0 + ay_0) - bc}{a^2 + b^2}\right)$
+    
+    \item \textbf{Line through point, parallel to given:} $a(x - x_0) + b(y - y_0) = 0$
+    \item \textbf{Line through point, perpendicular to given:} $b(x - x_0) - a(y - y_0) = 0$
+    
+    \item \textbf{Intersection of two lines:} Solve $\begin{cases} a_1x + b_1y + c_1 = 0 \\ a_2x + b_2y + c_2 = 0 \end{cases}$
+    
+    \item \textbf{Concurrency of three lines:} $\begin{vmatrix}
+    a_1 & b_1 & c_1 \\
+    a_2 & b_2 & c_2 \\
+    a_3 & b_3 & c_3
+    \end{vmatrix} = 0$
+    
+    \item \textbf{Section formula (dividing line segment):} 
+    $P = \left(\frac{mx_2 + nx_1}{m+n}, \frac{my_2 + ny_1}{m+n}\right)$
+    
+    \item \textbf{Centroid of triangle:} $\left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$
+    
+    \item \textbf{Area of triangle using coordinates:} 
+    $\frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$
+\end{itemize}
+
+
+\textbf{Vector Operations}\newline
+\textbf{Definition:} $|\vec{v}| = \vecmagnitude{x}{y}$
+
+\textbf{Dot Product (Scalar Product)}
+Measures the parallel component of one vector with another. The result is a \textbf{scalar}.
+\begin{itemize}
+    \item \textbf{Algebraic definition:} $\vec{u} \cdot \vec{v} = \dotproduct{x_1}{y_1}{x_2}{y_2}$
+    \item \textbf{Trigonometric formula:} $\vec{u} \cdot \vec{v} = |\vec{u}|\,|\vec{v}|\cos\theta$
+    \item \textbf{Where:} $\theta$ is the angle \textbf{between} the two vectors
+    \item If $\vec{u} \cdot \vec{v} = 0$, the vectors are \textbf{perpendicular} ($\cos 90^\circ = 0$)
+\end{itemize}
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture9.png}
+% \vspace{2pt}
+
+\textbf{\newline Cross Product (Vector Product)}
+Measures the perpendicular component and produces a vector \textbf{perpendicular} to both.
+\begin{itemize}
+    \item \textbf{Algebraic definition:} $\vec{u} \times \vec{v} = \crossproduct{x_1}{y_1}{x_2}{y_2}$
+    \item \textbf{Trigonometric formula:} $|\vec{u} \times \vec{v}| = |\vec{u}|\,|\vec{v}|\sin\theta$
+    \item \textbf{Where:} $\theta$ is the angle \textbf{between} the two vectors
+    \item \textbf{Key Insights:}
+    \begin{itemize}
+        \item The \textbf{magnitude} equals the \textbf{area} of the parallelogram formed by $\vec{u}$ and $\vec{v}$
+        \item If $\vec{u} \times \vec{v} = 0$, the vectors are \textbf{parallel} ($\sin 0^\circ = 0$)
+        \item \textbf{Sign indicates orientation:}
+        \begin{itemize}
+            \item \textbf{Positive:} $\vec{v}$ is counter-clockwise from $\vec{u}$
+            \item \textbf{Negative:} $\vec{v}$ is clockwise from $\vec{u}$
+        \end{itemize}
+        \item \textbf{CCW (Counter Clockwise Test):} 
+    $\ccw{x_1}{y_1}{x_2}{y_2}{x_3}{y_3}$
+    \begin{itemize}
+        \item $> 0$: Counter-clockwise
+        \item $= 0$: Collinear
+        \item $< 0$: Clockwise
+    \end{itemize}
+    \end{itemize}
+    \item \textbf{Point on segment check:} 
+    $(x_2 - x_1)(y_p - y_1) - (x_p - x_1)(y_2 - y_1) = 0$ \\
+    and $\min(x_1, x_2) \leq x_p \leq \max(x_1, x_2)$ \\
+    and $\min(y_1, y_2) \leq y_p \leq \max(y_1, y_2)$
+\end{itemize}
+
+
+
+
+
+
+
+\textbf{Angles and Triangles}
+
+
+
+\includegraphics[width=0.2\linewidth, height=2cm]{Geometry/Picture1.png}
+% \vspace{5pt} % Add space after image
+
+For obtuse angle $C$:
+\[
+AB^2 = AC^2 + BC^2 + 2 \cdot BC \cdot CD
+\]
+
+% \vspace{2pt} % Add space before next image
+
+
+
+\includegraphics[width=0.2\linewidth, height=2cm]{Geometry/Picture2.png}
+% \vspace{5pt} % Add space after image
+
+For acute angle $c$:
+\[
+AB^2 = AC^2 + BC^2 - 2 \cdot BC \cdot CD
+\]
+
+\begin{enumerate}
+    \item If $\angle ACB$ is an obtuse angle, $AB^2 > AC^2 + BC^2$
+    \item If $\angle ACB$ is a right angle, $AB^2 = AC^2 + BC^2$
+    \item If $\angle ACB$ is an acute angle, $AB^2 < AC^2 + BC^2$
+\end{enumerate}
+
+% \vspace{10pt} % Add space before theorem
+
+\textbf{Theorem of Apollonius}
+The sum of the areas of the squares drawn on any two sides of a triangle is equal to twice the sum of area of the squares drawn on the median of the third side and on either half of that side.
+
+
+
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture3.png}
+% \vspace{2pt}
+
+\begin{align*}
+d^2 &= \frac{2(b^2 + c^2) - a^2}{4} \\[1pt]
+e^2 &= \frac{2(c^2 + a^2) - b^2}{4} \\[1pt]
+f^2 &= \frac{2(a^2 + b^2) - c^2}{4} \\[1pt]
+\therefore 3(a^2 + b^2 + c^2) &= 4(d^2 + e^2 + f^2)
+\end{align*}
+
+
+\textbf{Triangle Centers}
+
+\textbf{Circumcenter of a Triangle}
+The circumcenter of a triangle is the point of intersection of two perpendicular bisectors of that triangle. Noted that, the perpendicular bisector of the third side of the triangle would pass through the circumcenter too.
+
+
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture4.png}
+% \vspace{2pt}
+
+\textbf{Centroid of a Triangle}
+The centroid of a triangle is the point of intersection of three medians of that triangle. The centroid of a triangle divides each median.
+
+
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture5.png}
+% \vspace{2pt}
+
+\textbf{Orthocenter of a Triangle}
+The orthocenter of a triangle is the point of intersection of the perpendiculars drawn from each vertex to their respective opposite side.
+
+
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture6.png}
+% \vspace{2pt}
+
+
+\textbf{Equilateral triangle:}
+\[
+\triangle ABC = \frac{1}{2} \cdot BC \cdot AD = \frac{1}{2} \cdot a \cdot \frac{\sqrt{3}a}{2} = \frac{\sqrt{3}}{4} a^2
+\]
+
+
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture7.png}
+% \vspace{2pt}
+
+\textbf{Isosceles triangle:}
+Area of isosceles \(\triangle ABC = \frac{1}{2} \cdot BC \cdot AD\)
+\[
+= \frac{1}{2} \cdot b \cdot \frac{\sqrt{4a^2 - b^2}}{2} = \frac{b}{4} \sqrt{4a^2 - b^2}
+\]
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture8.png}
+% \vspace{10pt}
+
+\textbf{For any triangle, the area given two sides and the included angle is:}
+\[
+\text{Area} = \frac{1}{2}ab\sin C
+\]
+where \(a\) and \(b\) are two sides and \(C\) is the angle between them. \newline
+
+
+
+\textbf{Incircle}
+
+The radius of an incircle of a triangle with sides \(a, b, c\) and area \(A\) is 
+\[
+r = \frac{2A}{a + b + c}.
+\]
+
+The radius of an incircle of a right triangle (the inradius) with legs \(a, b\) and hypotenuse \(c\) is
+\[
+r = \frac{ab}{a + b + c} = \frac{a + b - c}{2}.
+\]
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture10.png}
+% \vspace{2pt}
+
+\textbf{Excircle}
+If the circle is tangent to side \(a\) of the triangle, the radius is 
+\[
+r_a = \frac{K}{s - a},
+\]
+where \(K\) is the triangle's area and 
+\[
+s = \frac{a + b + c}{2}
+\]
+is the semiperimeter. \newline
+
+
+\textbf{Circumradius}
+Let \( a, b \) and \( c \) denote the triangle's three sides and let \( A \) denote the area of the triangle. Then, the measure of the circumradius of the triangle is
+\[
+R = \frac{abc}{4A}.
+\]
+For an equilateral triangle with side length \( s \), the circumradius is
+\[
+R = \frac{s}{\sqrt{3}}.
+\]
+
+The circumradius can also be expressed in terms of the sides only:
+\[
+R = \frac{abc}{\sqrt{(a+b+c)(-a+b+c)(a-b+c)(a+b-c)}}.
+\]
+
+By the extended law of sines, we have the relationship:
+\[
+2R = \frac{a}{\sin A},
+\]
+where \( A \) is the angle opposite side \( a \).
+\includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture11.png}
+% \vspace{2pt}
+
+
+
+
+\section*{Circle}
+
+\begin{itemize}
+    \item Circumference: $C = 2\pi r = \pi d$
+    \item Area: $A = \pi r^2 = \frac{\pi d^2}{4}$
+    \item Diameter: $d = 2r$
+    \item Standard form: $(x - h)^2 + (y - k)^2 = r^2$
+    \item General form: $x^2 + y^2 + Dx + Ey + F = 0$ where:
+        \begin{itemize}
+            \item Center: $(-\frac{D}{2}, -\frac{E}{2})$
+            \item Radius: $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$
+        \end{itemize}
+\end{itemize}
+
+\subsection*{Circle Parts}
+\begin{itemize}
+    \item Arc length: $s = r\theta$ ($\theta$ in radians) or $s = \frac{\theta}{360} \cdot 2\pi r$
+    \item Sector/Arc area: $A_{\text{sector}} = \frac{1}{2}r^2\theta = \frac{\theta}{360}\pi r^2$
+    \includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture12.png}
+% \vspace{2pt}
+    \item Chord length: $c = 2r\sin\left(\frac{\theta}{2}\right) = 2\sqrt{r^2 - d^2}$
+    \item Segment area: $A_{\text{segment}} = \frac{1}{2}r^2(\theta - \sin\theta)$
+    \item Sagitta (arrow height): $h = r - \sqrt{r^2 - \left(\frac{c}{2}\right)^2}$
+    \includegraphics[width=0.6\linewidth, height=2cm]{Geometry/Picture13.png}
+% \vspace{2pt}
+\end{itemize}
+
+\subsection*{Two Circles Relationships}
+\begin{itemize}
+    \item Distance between centers: $d = \sqrt{(h_1 - h_2)^2 + (k_1 - k_2)^2}$
+    \item Intersection conditions:
+        \begin{itemize}
+            \item Separate: $d > r_1 + r_2$
+            \item Externally tangent: $d = r_1 + r_2$
+            \item Intersecting: $|r_1 - r_2| < d < r_1 + r_2$
+            \item Internally tangent: $d = |r_1 - r_2|$
+            \item One inside other: $d < |r_1 - r_2|$
+        \end{itemize}
+    \item Area of intersection:
+\[
+\begin{split}
+A = & r_1^2 \cos^{-1}\left(\frac{d^2 + r_1^2 - r_2^2}{2dr_1}\right) \\
+& + r_2^2 \cos^{-1}\left(\frac{d^2 + r_2^2 - r_1^2}{2dr_2}\right) \\
+& - \frac{1}{2}\sqrt{S}
+\end{split}
+\]
+where $S = (-d + r_1 + r_2)(d + r_1 - r_2)(d - r_1 + r_2)(d + r_1 + r_2)$
+\end{itemize}
+
+\textbf{Area between three touching circles:}
+The area is given by the general formula for circles of differing radii $r_1, r_2, r_3$:
+\[
+\text{Area} = \sqrt{r_1 r_2 r_3 (r_1 + r_2 + r_3)} - \frac{1}{2} \left( r_1^2 \theta_1 + r_2^2 \theta_2 + r_3^2 \theta_3 \right)
+\]
+where $\theta_1, \theta_2,$ and $\theta_3$ are the angles of the triangle formed by their centers, measured in radians. The side lengths of this triangle are $(r_1 + r_2), (r_2 + r_3),$ and $(r_3 + r_1)$. The angles can be found using the Law of Cosines.\newline
+
+\subsection*{Square (side $a$)}
+\begin{itemize}
+    \item Perimeter: $P = 4a$
+    \item Area: $A = a^2$
+    \item Diagonal: $d = a\sqrt{2}$
+\end{itemize}
+
+% Rectangle
+\subsection*{Rectangle (length $l$, width $w$)}
+\begin{itemize}
+    \item Perimeter: $P = 2(l + w)$
+    \item Area: $A = lw$
+    \item Diagonal: $d = \sqrt{l^2 + w^2}$
+\end{itemize}
+
+% Parallelogram
+\subsection*{Parallelogram (base $b$, height $h$, sides $a$, $b$)}
+\begin{itemize}
+    \item Perimeter: $P = 2(a + b)$
+    \item Area: $A = bh$
+\end{itemize}
+
+% Rhombus
+\subsection*{Rhombus (side $a$, diagonals $d_1, d_2$)}
+\begin{itemize}
+    \item Perimeter: $P = 4a$
+    \item Area: $A = \frac{1}{2}d_1d_2$
+    \item Altitude: $h = a\sin\theta$
+\end{itemize}
+
+% Trapezoid
+\subsection*{Trapezoid (bases $a$, $b$, height $h$, legs $c$, $d$)}
+\begin{itemize}
+    \item Perimeter: $P = a + b + c + d$
+    \item Area: $A = \frac{1}{2}(a + b)h$
+    \item Midsegment: $m = \frac{a + b}{2}$
+\end{itemize}
+
+
+
+
+\section{Solid Geometry}
+
+\subsection{Rectangular Solid}
+
+\begin{itemize}
+    \item The diagonal of the rectangular solid \( = \sqrt{a^2 + b^2 + c^2} \)
+    \item Area of the whole surface: \( 2(ab + bc + ca) \)
+    \item Volume of the rectangular solid = length \(\times\) width \(\times\) height \( = abc \)
+\end{itemize}
+
+\subsection{Cube}
+
+\begin{enumerate}
+  \item The length of diagonal of the cube  
+        \[ = \sqrt{a^2 + a^2 + a^2} = \sqrt{3a^2} = \sqrt{3}a \]
+  
+  \item The area of the whole surface of the cube  
+        \[ = 2(a \cdot a + a \cdot a + a \cdot a) = 2(a^2 + a^2 + a^2) = 6a^2 \]
+  
+  \item The volume of the cube  
+        \[ = a \cdot a \cdot a = a^3 \]
+\end{enumerate}
+
+\subsection{Cylinder}
+
+\begin{enumerate}
+    \item Area of the base = $\pi r^2$
+    
+    \item Area of the curved surface = perimeter of the base $\times$ height = $2\pi rh$
+    
+    \item Area of the whole surface  
+          \[ = (\pi r^2 + 2\pi rh + \pi r^2) = 2\pi r(r + h) \]
+    
+    \item Volume = Area of the base $\times$ height = $\pi r^2 h$
+\end{enumerate}
+\includegraphics[width=0.6\linewidth, height=4cm]{Geometry/Picture15.png}
+
+
+
+\newcommand{\cosec}{\text{cosec}}
+
+\subsection{Prism}
+
+\begin{enumerate}
+    \item The area of total surfaces of a prism  
+          \[ = 2 \text{ (area of the base)}  \] \[+ \text{ perimeter of the base} \times \text{ height} \]
+    
+    \item Volume = area of the base \(\times\) height
+    
+    \item For a right prism: lateral surface area = perimeter of base \(\times\) height
+    
+    \item For a regular prism (with regular polygon base): 
+          \begin{itemize}
+              \item Base area = \(\dfrac{n \times s^2}{4 \times \tan(\frac{\pi}{n})}\) where \(n\) is number of sides, \(s\) is side length
+              \item Volume = base area \(\times\) height
+          \end{itemize}
+\end{enumerate}
+\includegraphics[width=0.6\linewidth, height=4cm]{Geometry/Picture16.png}
+
+
+\subsection{Pyramid}
+\begin{enumerate}
+    \item \textbf{Total Surface Area} 
+          \[ = \text{Area of base} + \text{Area of lateral surfaces} \]
+          For regular pyramids:
+          \[ = \text{Area of base} + \frac{1}{2}(\text{Perimeter base} \times \text{Slant height}) \]
+          \[ \text{Slant height: } l = \sqrt{h^2 + r^2} \]
+          where \( h \) = height, \( r \) = inradius of base
+    
+    \item \textbf{Volume}
+          \[ V = \frac{1}{3} \times \text{Area of base} \times \text{Height} \]
+\end{enumerate}
+\includegraphics[width=0.6\linewidth, height=4cm]{Geometry/Picture17.png}
+
+
+\subsection{Right Circular Cone}
+\subsection*{Formulas}
+\begin{itemize}
+    \item Height: $h$, Base radius: $r$, Slant height: $l$
+    \item Relationship: $l = \sqrt{h^2 + r^2}$
+\end{itemize}
+
+\begin{enumerate}
+    \item \textbf{Curved Surface Area: S }
+          \[ = \frac{1}{2} \times \text{circumference} \times \text{slant height} \]
+          \[ = \frac{1}{2} \times 2\pi r \times l = \pi rl \]
+    
+    \item \textbf{Total Surface Area}
+          \[ = \pi rl + \pi r^2 = \pi r(r + l) \]
+    
+    \item \textbf{Volume}
+          \[ V = \frac{1}{3} \times \text{area of base} \times \text{height} \]
+          \[ V = \frac{1}{3}\pi r^2 h \]
+\end{enumerate}
+
+Given a right circular cone with volume $V$, curved surface area $S$, base radius $r$, height $h$, and semi-vertical angle $\alpha$:
+
+\begin{enumerate}
+    \item \textbf{Curved Surface Area:}
+          \[ S = \frac{\pi h^{2}\tan\alpha}{\cos\alpha} = \frac{\pi r^{2}}{\sin\alpha} \text{ square units} \]
+    
+    \item \textbf{Volume:}
+          \[ V = \frac{1}{3}\pi h^{3}\tan^{2}\alpha = \frac{\pi r^{3}}{3\tan\alpha} \text{ cubic units} \]
+\end{enumerate}
+
+\includegraphics[width=0.6\linewidth, height=4cm]{Geometry/Picture18.png}
+
+\subsection{Sphere}
+
+\subsection*{Properties}
+\begin{itemize}
+    \item Center: $O$, Radius: $r = OA = OB = OC$
+    \item A plane at distance $h$ from center cuts sphere forming circle with:
+          \[ \text{Radius} = \sqrt{r^2 - h^2} \]
+    \item From right triangle: $OB^2 = OP^2 + PB^2$
+\end{itemize}
+
+\subsection*{Formulas}
+\begin{enumerate}
+    \item \textbf{Surface Area:} 
+          \[ A = 4\pi r^2 \]
+    
+    \item \textbf{Volume:}
+          \[ V = \frac{4}{3}\pi r^3 \]
+    
+    \item \textbf{Section Radius:}
+          \[ R = \sqrt{r^2 - h^2} \]
+\end{enumerate}
+
+\subsection*{Related Volumes}
+\begin{itemize}
+    \item Cone: $V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi r^3$
+    \item Hemisphere: $V = \frac{1}{2} \times \frac{4}{3}\pi r^3 = \frac{2}{3}\pi r^3$
+    \item Cylinder: $V = \pi r^2 h = \pi r^3$
+\end{itemize}
+\includegraphics[width=0.6\linewidth, height=4cm]{Geometry/Picture19.png}
+
+
+\section*{Tetrahedron}
+
+\subsection*{Regular Tetrahedron}
+A pyramid with four equilateral triangular faces, six edges, and four vertices.
+
+\subsection*{Formulas (for edge length $a$)}
+\begin{enumerate}
+    \item \textbf{Surface Area:}
+          \[ A = \sqrt{3} \cdot a^2 \]
+    
+    \item \textbf{Volume:}
+          \[ V = \frac{a^3}{6\sqrt{2}} \]
+    
+    \item \textbf{Height:}
+          \[ h = \sqrt{\frac{2}{3}} \cdot a \]
+    
+    \item \textbf{Face Area:}
+          \[ A_{\text{face}} = \frac{\sqrt{3}}{4} \cdot a^2 \]
+    
+    \item \textbf{Inradius (radius of inscribed sphere):}
+          \[ r = \frac{a}{\sqrt{24}} \]
+    
+    \item \textbf{Circumradius (radius of circumscribed sphere):}
+          \[ R = \frac{a}{\sqrt{8}} \]
+\end{enumerate}
+
+\subsection*{Key Properties}
+\begin{itemize}
+    \item All faces are congruent equilateral triangles
+    \item All edges have equal length
+    \item 4 vertices, 6 edges, 4 faces (Euler's formula: $V - E + F = 2$)
+    \item Dual polyhedron: Another tetrahedron
+\end{itemize}
+\includegraphics[width=0.6\linewidth, height=4cm]{Geometry/Picture20.png}
+
+\section*{Frustum Formulas}
+
+\subsection*{Frustum of a Cone}
+
+\begin{itemize}
+    \item Base radius: $R$, Top radius: $r$, Height: $h$, Slant height: $l$
+    \item $l = \sqrt{h^2 + (R - r)^2}$
+\end{itemize}
+
+\begin{enumerate}
+    \item \textbf{Curved Surface Area:}
+          \[ A_{\text{curved}} = \pi l (R + r) \]
+    
+    \item \textbf{Total Surface Area:}
+          \[ A_{\text{total}} = \pi [l(R + r) + R^2 + r^2] \]
+    
+    \item \textbf{Volume:}
+          \[ V = \frac{1}{3}\pi h (R^2 + Rr + r^2) \]
+\end{enumerate}
+
+\subsection*{Frustum of a Pyramid}
+
+\begin{itemize}
+    \item Base area: $A_1$, Top area: $A_2$, Height: $h$
+    \item For square base: side $a$ (base), side $b$ (top)
+\end{itemize}
+
+\begin{enumerate}
+    \item \textbf{Lateral Surface Area:}
+          \[ A_{\text{lateral}} = \frac{1}{2}(P_1 + P_2) \times l \]
+          where $P_1, P_2$ are perimeters of base and top
+    
+    \item \textbf{Total Surface Area:}
+          \[ A_{\text{total}} = A_{\text{lateral}} + A_1 + A_2 \]
+    
+    \item \textbf{Volume:}
+          \[ V = \frac{1}{3}h (A_1 + A_2 + \sqrt{A_1 A_2}) \]
+    
+    \item \textbf{For Square Pyramid Frustum:}
+          \[ V = \frac{1}{3}h (a^2 + b^2 + ab) \]
+\end{enumerate}
+
+\subsection*{Frustum of a Prism}
+
+\begin{itemize}
+    \item Cross-sectional area varies linearly
+    \item Average cross-section method applies
+\end{itemize}
+
+\[ V = h \times \frac{A_1 + A_2}{2} \quad \text{(for parallel ends)} \]
+
+\subsection*{Key Relationships}
+
+\begin{itemize}
+    \item Similar triangles relate dimensions: $\frac{r}{R} = \frac{h_2}{h_1}$
+    \item For cone frustum: $l^2 = h^2 + (R - r)^2$
+    \item Volume formula derived from difference of two similar cones/pyramids
+\end{itemize}
+
+\section*{Angled Frustum (Truncated Cone with Inclined Plane)}
+
+\subsection*{General Case: Cone Cut by Inclined Plane}
+
+\begin{itemize}
+    \item Base radius: $R$, Height from base to vertex: $H$
+    \item Cutting plane inclined at angle $\theta$ to base
+    \item Distance from center to cutting plane along axis: $h$
+\end{itemize}
+
+\subsection*{Cross-Section Properties}
+
+\begin{enumerate}
+    \item \textbf{Shape of Cut Surface:}
+          \begin{itemize}
+              \item Ellipse when cutting plane is inclined
+              \item Circle only when cutting plane is parallel to base
+          \end{itemize}
+    
+    \item \textbf{Ellipse Parameters:}
+          \[ \text{Major axis} = 2R \]
+          \[ \text{Minor axis} = 2R \cdot \cos\theta \]
+          \[ \text{Eccentricity} = \sqrt{1 - \cos^2\theta} = \sin\theta \]
+    
+    \item \textbf{Area of Elliptical Top:}
+          \[ A_{\text{top}} = \pi R^2 \cos\theta \]
+\end{enumerate}
+
+\subsection*{Volume Formulas}
+
+\begin{enumerate}
+    \item \textbf{Using Integration:}
+          \[ V = \int_{h_1}^{h_2} \pi [r(z)]^2  dz \]
+          where $r(z)$ is the radius at height $z$
+    
+    \item \textbf{For Right Circular Cone with Inclined Cut:}
+          \[ V = \frac{\pi R^2 H}{3} \left(1 - \left(1 - \frac{h}{H}\right)^3\right) \cdot \frac{1}{\cos\theta} \]
+    
+    \item \textbf{General Formula (Prismoidal Method):}
+          \[ V = \frac{h}{6} \left(A_1 + A_2 + 4A_m\right) \]
+          where $A_1$, $A_2$ are end areas, $A_m$ is mid-section area
+\end{enumerate}
+
+\subsection*{Surface Area}
+
+\begin{enumerate}
+    \item \textbf{Lateral Surface Area:}
+          \[ A_{\text{lateral}} = \pi R \sqrt{R^2 + H^2} - \pi r \sqrt{r^2 + (H-h)^2} \]
+    
+    \item \textbf{Top Surface (Ellipse) Area:}
+          \[ A_{\text{top}} = \pi ab = \pi R^2 \cos\theta \]
+\end{enumerate}
+
+\subsection*{Special Cases}
+
+\begin{itemize}
+    \item \textbf{When $\theta = 0^\circ$:} Standard frustum (parallel bases)
+    \item \textbf{When $\theta = 90^\circ$:} Vertical cut through cone
+    \item \textbf{When cutting plane passes through vertex:} Forms a triangle cross-section
+\end{itemize}
+
+\subsection*{Key Relationships}
+
+\begin{itemize}
+    \item The intersection of a plane and cone always produces a conic section
+    \item Volume depends on both the height of cut and the inclination angle
+    \item For computational purposes, often solved using calculus or numerical methods
+\end{itemize}
+
+\section*{Regular Polygon Area General Formula (Side Length = $A$)}
+
+\noindent$A = \frac{n \cdot a^2}{4} \cdot \cot\left(\frac{\pi}{n}\right)$
+
+
+
+
+
+\section*{Conic Sections Formulas}
+
+\subsection*{Ellipse}
+
+\subsubsection*{Standard Forms}
+\begin{itemize}
+    \item \textbf{Horizontal major axis:} $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$
+    \item \textbf{Vertical major axis:} $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$
+\end{itemize}
+
+
+
+
+
+
+
+
+
+\textbf{\small The number of diagonals in an $n$-sided polygon is:}
+\[
+\frac{n \cdot (n - 3)}{2}
+\]
+
+\textbf{\small If the polygon is regular, you can calculate the measure of each interior angle as:}
+\[
+\frac{(n - 2) \cdot 180^\circ}{n}
+\]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \section*{Finite Series}
+
+% \subsection*{Arithmetic Series}
+% The $n$-th term of an arithmetic series is given by:
+% \[
+% a_n = a + (n - 1)d
+% \]
+
+% Let the first term be $a$, the last term be $p$, the common difference be $d$, the number of terms be $n$, and the sum of $n$ terms be $S_n$. Then:
+% \[
+% S_n = \frac{n}{2}(a + p) \tag{1}
+% \]
+% Alternatively,
+% \[
+% S_n = \frac{n}{2} \left[2a + (n - 1)d\right] \tag{2}
+% \]
+
+% \subsection*{Important Finite Sums}
+% \begin{enumerate}
+%     \item \( 1 + 2 + 3 + \cdots + n = \frac{n(n + 1)}{2} \)
+%     \item \( 1^2 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n + 1)(2n + 1)}{6} \)
+%     \item \( 1^3 + 2^3 + 3^3 + \cdots + n^3 = \left( \frac{n(n + 1)}{2} \right)^2 \)
+% \end{enumerate}
+
+% \textbf{Note:} \( 1^3 + 2^3 + 3^3 + \cdots + n^3 = (1 + 2 + 3 + \cdots + n)^2 \)
+
+% \subsection*{Geometric Series}
+% Let the first term be $a$ and the common ratio be $r$. Then:
+% \[
+% n\text{-th term} = ar^{n-1}
+% \]
+
+% The sum of $n$ terms, denoted $S_n$, is given by:
+% \[
+% S_n = \frac{a(r^n - 1)}{r - 1}, \quad \text{for } r \neq 1
+% \]
+% For $r < 1$, the formula is often written as:
+% \[
+% S_n = \frac{a(1 - r^n)}{1 - r}
+% \]
+% If $r = 1$, then $S_n = na$.
+
+% \subsection*{Infinite Geometric Series}
+% For $|r| < 1$, the sum to infinity is:
+% \[
+% S_{\infty} = \frac{a}{1 - r}
+% \]
+
+\section*{Trigonometric Ratio}
+
+\[
+\sec^2\theta - \tan^2\theta = 1
+\]
+
+\[
+(\sin \theta)^2 + (\cos \theta)^2 = 1 \quad \text{cosec}^2\theta - \cot^2\theta = 1
+\]
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{} & $\mathbf{0^\circ}$ & $\mathbf{30^\circ}$ & $\mathbf{45^\circ}$ & $\mathbf{60^\circ}$ & $\mathbf{90^\circ}$ \\
+\hline
+sine & $0$ & $\frac{1}{2}$ & $\frac{1}{\sqrt{2}}$ & $\frac{\sqrt{3}}{2}$ & $1$ \\
+\hline
+cosine & $1$ & $\frac{\sqrt{3}}{2}$ & $\frac{1}{\sqrt{2}}$ & $\frac{1}{2}$ & $0$ \\
+\hline
+tangent & $0$ & $\frac{1}{\sqrt{3}}$ & $1$ & $\sqrt{3}$ & udf \\
+\hline
+cotangent & udf & $\sqrt{3}$ & $1$ & $\frac{1}{\sqrt{3}}$ & $0$ \\
+\hline
+secant & $1$ & $\frac{2}{\sqrt{3}}$ & $\sqrt{2}$ & $2$ & udf \\
+\hline
+cosecant & udf & $2$ & $\sqrt{2}$ & $\frac{2}{\sqrt{3}}$ & $1$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\[
+\therefore \sin(90^\circ - \theta) = \frac{OM}{OP} = \cos\angle POM = \cos\theta
+\]
+
+\[
+\cos(90^\circ - \theta) = \frac{PM}{OP} = \sin\angle POM = \sin\theta
+\]
+
+\[
+\tan(90^\circ - \theta) = \frac{OM}{PM} = \cot\angle POM = \cot\theta
+\]
+
+\[
+\cot(90^\circ - \theta) = \frac{PM}{OM} = \tan\angle POM = \tan\theta
+\]
+
+\[
+\sec(90^\circ - \theta) = \frac{OP}{PM} = \cosec\angle POM = \cosec\theta
+\]
+
+\[
+\cosec(90^\circ - \theta) = \frac{OP}{OM} = \sec\angle POM = \sec\theta
+\]
+
+\textbf{Value of $\pi = 3.$}
+
+\begin{verbatim}
+  1415926535 8979323846 2643383279 5028841971
+  6939937510 5820974944 5923078164 0628620899
+  8628034825 3421170679 8214808651 3282306647 
+  0938446095 5058223172 5359408128 4811174502
+  8410270193 8521105559 6446229489 5493038196
+  4428810975 6659334461 2847564823 3786783165
+  2712019091 4564856692 3460348610 4543266482
+  1339360726 0249141273 7245870066 0631558817
+  4881520920 9628292540 9171536436 7892590360
+  0113305305 4882046652 1384146951 9415116094
+  3305727036 5759591953 0921861173 8193261179
+  3105118548 0744623799 6274956735 1885752724 
+  8912279381 8301194912
+\end{verbatim}
+
+\end{multicols*}
