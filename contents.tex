@@ -1,4 +1,7 @@
 \section{Setup}
+\subsection{\small Sublime Build  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/01-Sublime Build.cpp}
+
 % \vspace{-4.5mm}
 % \vspace{-1em}
 \begin{minted}[breaklines,frame=none,framesep=0pt]{json}
@@ -9,17 +12,14 @@
 \end{minted}
 
 
-\subsection{\small Sublime Build  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/01-Sublime Build.cpp}
-
 \subsection{\small Template  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/02-Template.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/05-Template.cpp}
 
 \subsection{\small Input Gen  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/03-Input Gen.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/06-Input Gen.cpp}
 
 \subsection{\small Bash Script  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/04-Bash Script.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/01-Setup/07-Bash Script.cpp}
 
 % \vspace{0.2em}
 % \vspace{-2.5mm}
@@ -166,10 +166,10 @@ cat correctAnswer
 \item Combination with Repetition (choose $k$ elements from $n$ objects, same element can be chosen multiple times). \quad $\binom{n+k-1}{k}$
 \item How many ways to go from $(0,0)$ to $(n,m)$. \quad $\binom{n+m}{m}$
 \end{itemize}\medskip\medskip\medskip
-\textbf{Pascals Triangle is equivalent to nCr:}
-\begin{center}
-\includegraphics[width=0.5\linewidth]{images/pascals-triangle.png}
-\end{center}
+% \textbf{Pascals Triangle is equivalent to nCr:}
+% \begin{center}
+% \includegraphics[width=0.5\linewidth]{images/pascals-triangle.png}
+% \end{center}
 }
 
 
@@ -395,8 +395,11 @@ Example array — $[a,b]$ the subsequences are $\{a\}, \{b\}, \{a,b\}$ so ans is
 \subsection{\small 2D BIT  \scriptsize}
 \inputminted[breaklines, breakanywhere]{c++}{code/05-Data Structure/25-2D BIT.cpp}
 
-\subsection{\small 2D Segment Tree  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/05-Data Structure/26-2D Segment Tree.cpp}
+\subsection{\small Treap  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/05-Data Structure/27-Treap.cpp}
+
+\subsection{\small Centroid Decomposition  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/05-Data Structure/28-Centroid Decomposition.cpp}
 
 \section{Dynamic Programming}
 \subsection{\small Knapsack 2  \scriptsize}
@@ -471,24 +474,6 @@ Given a rooted tree, Upd: Add $d*k$ on $v$(subtree nodes of $u$), where $k$ will
 \textbf{Idea:} $d_i=$ dis from root to $i$. Then, $\text{ans} = k \cdot \sum_{v \in \text{subtree}(u)} d_v$. It's hard to find $d_v$ for each $u$, rather we can find $d_v=$ dis of $v$ from root. Although some extra value added on each $v$ of subtree $u$ because of $d_v$ from root (not $u$), we can easily subtract them ($depth[u]*k$).
 }
 
-\subsection{\small Dinic  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/07-Graph Theory/16-Dinic.cpp}
-
-\subsection{\small Flow Properties  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/07-Graph Theory/17-Flow Properties.cpp}
-
-\vspace{-5.5mm}
-{\footnotesize
-\begin{itemize}
-\item \textbf{Bipartite Matching} = bpm
-\item \textbf{Maximum Independent Set} = n - bpm. Bipartite Graph e min je koyta node remove korle kono edge thakbe na tar man bpm. segula bade baki node gula Independent jar man n - bpm.
-\item \textbf{Vertex Cover} = bpm. Bipartite Graph e min je koyta vertex choose korle sob edge thakbe.
-\item \textbf{Edge Cover} = n - bpm. Bipartite Graph e min je koyta edge choose korle sob vertex kono ekta edge er sathe connected thakbe.
-
-\end{itemize}
-}
-
-
 \section{String}
 \subsection{\small Hashing  \scriptsize}
 \inputminted[breaklines, breakanywhere]{c++}{code/08-String/01-Hashing.cpp}
@@ -561,9 +546,40 @@ Grundy value can be calculate by DP/Pattern.
 }
 
 
+\section{Flow}
+\subsection{\small Flow wtth L H bound  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/10-Flow/02-Flow wtth L H bound.cpp}
+
+\subsection{\small Hopcroft Karp  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/10-Flow/03-Hopcroft Karp.cpp}
+
+\subsection{\small L H (work with cycle)  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/10-Flow/04-L H (work with cycle).cpp}
+
+\subsection{\small Max-Flow  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/10-Flow/05-Max-Flow.cpp}
+
+\subsection{\small Max Flow with Min Cost  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/10-Flow/06-Max Flow with Min Cost.cpp}
+
+\subsection{\small Flow Properties  \scriptsize}
+\inputminted[breaklines, breakanywhere]{c++}{code/10-Flow/17-Flow Properties.cpp}
+
+\vspace{-5.5mm}
+{\footnotesize
+\begin{itemize}
+\item \textbf{Bipartite Matching} = bpm
+\item \textbf{Maximum Independent Set} = n - bpm. Bipartite Graph e min je koyta node remove korle kono edge thakbe na tar man bpm. segula bade baki node gula Independent jar man n - bpm.
+\item \textbf{Vertex Cover} = bpm. Bipartite Graph e min je koyta vertex choose korle sob edge thakbe.
+\item \textbf{Edge Cover} = n - bpm. Bipartite Graph e min je koyta edge choose korle sob vertex kono ekta edge er sathe connected thakbe.
+
+\end{itemize}
+}
+
+
 \section{Misc.}
 \subsection{\small [Trick] Median of Medians  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./02-[Trick] Median of Medians.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./02-[Trick] Median of Medians.cpp}
 
 {\footnotesize
 \textbf{Problem:} Median of All Sub-Array Medians \\
@@ -571,10 +587,10 @@ Grundy value can be calculate by DP/Pattern.
 }
 
 \subsection{\small Ternary Search  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./04-Ternary Search.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./04-Ternary Search.cpp}
 
 \subsection{\small Pigeonhole Principle  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./05-Pigeonhole Principle.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./05-Pigeonhole Principle.cpp}
 
 {\footnotesize
 \begin{itemize}
@@ -587,73 +603,73 @@ Grundy value can be calculate by DP/Pattern.
 
 
 \subsection{\small Matrix Expo  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./07-Matrix Expo.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./07-Matrix Expo.cpp}
 
 \subsection{\small 2D Prefix Sum  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./08-2D Prefix Sum.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./08-2D Prefix Sum.cpp}
 
 \subsection{\small 2D Static Range Update  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./09-2D Static Range Update.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./09-2D Static Range Update.cpp}
 
 \subsection{\small CHECK SET CLR  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./10-CHECK SET CLR.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./10-CHECK SET CLR.cpp}
 
 \subsection{\small Graph Directions  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./11-Graph Directions.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./11-Graph Directions.cpp}
 
 \subsection{\small Custom Hash  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./12-Custom Hash.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./12-Custom Hash.cpp}
 
 \subsection{\small Coordinate Compression  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./13-Coordinate Compression.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./13-Coordinate Compression.cpp}
 
 \subsection{\small Submask Generator  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./14-Submask Generator.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./14-Submask Generator.cpp}
 
 \subsection{\small Custom Comparators  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./15-Custom Comparators.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./15-Custom Comparators.cpp}
 
 \subsection{\small MOD Operations  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./16-MOD Operations.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./16-MOD Operations.cpp}
 
 \subsection{\small Mex with Array Updates  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./17-Mex with Array Updates.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./17-Mex with Array Updates.cpp}
 
 \subsection{\small Check Eq AlphaQ  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/10-Misc./18-Check Eq AlphaQ.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/11-Misc./18-Check Eq AlphaQ.cpp}
 
 \section{Geometry}
 \subsection{\small Convex Hull  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/11-Geometry/01-Convex Hull.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/12-Geometry/01-Convex Hull.cpp}
 
 \subsection{\small Area of 2 polygon intersection  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/11-Geometry/02-Area of 2 polygon intersection.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/12-Geometry/02-Area of 2 polygon intersection.cpp}
 
 \subsection{\small Point Segment Distance  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/11-Geometry/03-Point Segment Distance.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/12-Geometry/03-Point Segment Distance.cpp}
 
 \subsection{\small Three Point Circle  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/11-Geometry/04-Three Point Circle.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/12-Geometry/04-Three Point Circle.cpp}
 
 \subsection{\small Circle Line Intersection  \scriptsize}
-\inputminted[breaklines, breakanywhere]{c++}{code/11-Geometry/05-Circle Line Intersection.cpp}
+\inputminted[breaklines, breakanywhere]{c++}{code/12-Geometry/05-Circle Line Intersection.cpp}
 
-{\footnotesize
-\includegraphics[width=0.7\linewidth]{images/shape-image-2.png}\\
+% {\footnotesize
+% \includegraphics[width=0.7\linewidth]{images/shape-image-2.png}\\
 % \includegraphics[width=1\linewidth]{images/shape-image-3.png}
-\begin{center}
-\footnotesize % Using the font size you specified
-\begin{tabular}{|c|p{1.9cm}|c|c|}
-\hline
-\textbf{Shape} & \textbf{Figure} & \textbf{Perimeter} & \textbf{Area} \\
-\hline
-Kite & \begin{tabular}{@{}l@{}}  \\ $b, c$ = sides \\ $d_1, d_2$ = diagonals \end{tabular} & $P = 2b + 2c$ & $A = \frac{1}{2}(d_1 d_2)$ \\
-\hline
-Polygon & \begin{tabular}{@{}l@{}}  \\ $n = \text{number of sides}$ \\ $s = \text{side}$ \\ $a = \text{apothem}$ \\ $P = \text{perimeter}$ \end{tabular} & $P = ns$ & $A = \frac{1}{2} a \cdot P$ \\
-\hline
-Ellipse & \begin{tabular}{@{}l@{}}  \\ $r_1 = \text{mx rad}$ \\ $r_2 = \text{mn rad}$ \end{tabular} & $P \approx 2\pi \sqrt{\frac{1}{2}(r_1^2 + r_2^2)}$ & $A = \pi r_1 r_2$ \\
-\hline
-\end{tabular}
-\end{center}
-}
+% \begin{center}
+% \footnotesize % Using the font size you specified
+% \begin{tabular}{|c|p{1.9cm}|c|c|}
+% \hline
+% \textbf{Shape} & \textbf{Figure} & \textbf{Perimeter} & \textbf{Area} \\
+% \hline
+% Kite & \begin{tabular}{@{}l@{}}  \\ $b, c$ = sides \\ $d_1, d_2$ = diagonals \end{tabular} & $P = 2b + 2c$ & $A = \frac{1}{2}(d_1 d_2)$ \\
+% \hline
+% Polygon & \begin{tabular}{@{}l@{}}  \\ $n = \text{number of sides}$ \\ $s = \text{side}$ \\ $a = \text{apothem}$ \\ $P = \text{perimeter}$ \end{tabular} & $P = ns$ & $A = \frac{1}{2} a \cdot P$ \\
+% \hline
+% Ellipse & \begin{tabular}{@{}l@{}}  \\ $r_1 = \text{mx rad}$ \\ $r_2 = \text{mn rad}$ \end{tabular} & $P \approx 2\pi \sqrt{\frac{1}{2}(r_1^2 + r_2^2)}$ & $A = \pi r_1 r_2$ \\
+% \hline
+% \end{tabular}
+% \end{center}
+% }
 

@@ -222,6 +222,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 OUTPUT notebook.toc
 INPUT contents.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 OUTPUT _FB5D1B4A2312E239652B13A24ED9A74F.data.minted
 INPUT ./_FB5D1B4A2312E239652B13A24ED9A74F.config.minted
 INPUT ./_FB5D1B4A2312E239652B13A24ED9A74F.config.minted
@@ -231,10 +233,14 @@ INPUT ./_minted/_FB5D1B4A2312E239652B13A24ED9A74F.index.minted
 INPUT ./_minted/default.style.minted
 INPUT ./_minted/default.style.minted
 INPUT _minted/default.style.minted
+INPUT ./code/01-Setup/01-Sublime Build.cpp
+INPUT ./_minted/65203A4DEA0E19D564EBF6007222F2B6.highlight.minted
+INPUT ./_minted/65203A4DEA0E19D564EBF6007222F2B6.highlight.minted
+INPUT _minted/65203A4DEA0E19D564EBF6007222F2B6.highlight.minted
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT ./_minted/4859D36FB3DE242232592963F7793531.highlight.minted
 INPUT ./_minted/4859D36FB3DE242232592963F7793531.highlight.minted
 INPUT _minted/4859D36FB3DE242232592963F7793531.highlight.minted
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -247,26 +253,20 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT ./code/01-Setup/01-Sublime Build.cpp
-INPUT ./_minted/65203A4DEA0E19D564EBF6007222F2B6.highlight.minted
-INPUT ./_minted/65203A4DEA0E19D564EBF6007222F2B6.highlight.minted
-INPUT _minted/65203A4DEA0E19D564EBF6007222F2B6.highlight.minted
-INPUT ./code/01-Setup/02-Template.cpp
-INPUT ./_minted/24D78DA2B8BDB362B6AC22AE184C303A.highlight.minted
-INPUT ./_minted/24D78DA2B8BDB362B6AC22AE184C303A.highlight.minted
-INPUT _minted/24D78DA2B8BDB362B6AC22AE184C303A.highlight.minted
+INPUT ./code/01-Setup/05-Template.cpp
+INPUT ./_minted/03B23B35883A587ADFF264E3C83D5E97.highlight.minted
+INPUT ./_minted/03B23B35883A587ADFF264E3C83D5E97.highlight.minted
+INPUT _minted/03B23B35883A587ADFF264E3C83D5E97.highlight.minted
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmitt10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT ./code/01-Setup/03-Input Gen.cpp
-INPUT ./_minted/F99745F11AF1008DD07640A37D08E93B.highlight.minted
-INPUT ./_minted/F99745F11AF1008DD07640A37D08E93B.highlight.minted
-INPUT _minted/F99745F11AF1008DD07640A37D08E93B.highlight.minted
-INPUT ./code/01-Setup/04-Bash Script.cpp
-INPUT ./_minted/24693331BD38558E01FB64365D9C4A8C.highlight.minted
-INPUT ./_minted/24693331BD38558E01FB64365D9C4A8C.highlight.minted
-INPUT _minted/24693331BD38558E01FB64365D9C4A8C.highlight.minted
+INPUT ./code/01-Setup/06-Input Gen.cpp
+INPUT ./_minted/F53291A21985E0521172A45E1664E066.highlight.minted
+INPUT ./_minted/F53291A21985E0521172A45E1664E066.highlight.minted
+INPUT _minted/F53291A21985E0521172A45E1664E066.highlight.minted
+INPUT ./code/01-Setup/07-Bash Script.cpp
+INPUT ./_minted/6B3AE5B939DB5FD83B6D3F5AF589AF82.highlight.minted
+INPUT ./_minted/6B3AE5B939DB5FD83B6D3F5AF589AF82.highlight.minted
+INPUT _minted/6B3AE5B939DB5FD83B6D3F5AF589AF82.highlight.minted
 INPUT ./_minted/3D6A61AC0256DF73E0B5585259F43AB5.highlight.minted
 INPUT ./_minted/3D6A61AC0256DF73E0B5585259F43AB5.highlight.minted
 INPUT _minted/3D6A61AC0256DF73E0B5585259F43AB5.highlight.minted
@@ -364,11 +364,6 @@ INPUT ./code/04-Combinatorics and Probability/07-Stars and Bars Theorem.cpp
 INPUT ./_minted/1DC765BFF1548AAE4CBB8FCE76C27D8E.highlight.minted
 INPUT ./_minted/1DC765BFF1548AAE4CBB8FCE76C27D8E.highlight.minted
 INPUT _minted/1DC765BFF1548AAE4CBB8FCE76C27D8E.highlight.minted
-INPUT ./images/pascals-triangle.png
-INPUT ./images/pascals-triangle.png
-INPUT ./images/pascals-triangle.png
-INPUT ./images/pascals-triangle.png
-INPUT ./images/pascals-triangle.png
 INPUT ./code/04-Combinatorics and Probability/09-Properties of Pascal's Triangle.cpp
 INPUT ./_minted/3B11F60891C5744D9ABEBAE53A860226.highlight.minted
 INPUT ./_minted/3B11F60891C5744D9ABEBAE53A860226.highlight.minted
@@ -470,10 +465,14 @@ INPUT ./code/05-Data Structure/25-2D BIT.cpp
 INPUT ./_minted/9E67913AEC1E88A48D214E8666FBA439.highlight.minted
 INPUT ./_minted/9E67913AEC1E88A48D214E8666FBA439.highlight.minted
 INPUT _minted/9E67913AEC1E88A48D214E8666FBA439.highlight.minted
-INPUT ./code/05-Data Structure/26-2D Segment Tree.cpp
-INPUT ./_minted/AB2F377EE3088D7FED57633C633C591A.highlight.minted
-INPUT ./_minted/AB2F377EE3088D7FED57633C633C591A.highlight.minted
-INPUT _minted/AB2F377EE3088D7FED57633C633C591A.highlight.minted
+INPUT ./code/05-Data Structure/27-Treap.cpp
+INPUT ./_minted/55AB449C1310B9100D8B0A5E3865E9D6.highlight.minted
+INPUT ./_minted/55AB449C1310B9100D8B0A5E3865E9D6.highlight.minted
+INPUT _minted/55AB449C1310B9100D8B0A5E3865E9D6.highlight.minted
+INPUT ./code/05-Data Structure/28-Centroid Decomposition.cpp
+INPUT ./_minted/3DB29484BEB03DAEBB009CDCD9E5FE4D.highlight.minted
+INPUT ./_minted/3DB29484BEB03DAEBB009CDCD9E5FE4D.highlight.minted
+INPUT _minted/3DB29484BEB03DAEBB009CDCD9E5FE4D.highlight.minted
 INPUT ./code/06-Dynamic Programming/01-Knapsack 2.cpp
 INPUT ./_minted/0CEE621AACA47A09391FB5B892E4A6D7.highlight.minted
 INPUT ./_minted/0CEE621AACA47A09391FB5B892E4A6D7.highlight.minted
@@ -563,14 +562,6 @@ INPUT ./code/07-Graph Theory/12-[Problem] Rooted Tree - Hackerrank.cpp
 INPUT ./_minted/0BC3F800F3F2E3F822E2580617EECBFE.highlight.minted
 INPUT ./_minted/0BC3F800F3F2E3F822E2580617EECBFE.highlight.minted
 INPUT _minted/0BC3F800F3F2E3F822E2580617EECBFE.highlight.minted
-INPUT ./code/07-Graph Theory/16-Dinic.cpp
-INPUT ./_minted/BEC6EC60064F556A74FB29BF8E65BE4A.highlight.minted
-INPUT ./_minted/BEC6EC60064F556A74FB29BF8E65BE4A.highlight.minted
-INPUT _minted/BEC6EC60064F556A74FB29BF8E65BE4A.highlight.minted
-INPUT ./code/07-Graph Theory/17-Flow Properties.cpp
-INPUT ./_minted/7E9E583E7D6B7C346EC3F8CD43735B73.highlight.minted
-INPUT ./_minted/7E9E583E7D6B7C346EC3F8CD43735B73.highlight.minted
-INPUT _minted/7E9E583E7D6B7C346EC3F8CD43735B73.highlight.minted
 INPUT ./code/08-String/01-Hashing.cpp
 INPUT ./_minted/936156BA85BE88EB8C7BC5979D04F537.highlight.minted
 INPUT ./_minted/936156BA85BE88EB8C7BC5979D04F537.highlight.minted
@@ -628,91 +619,110 @@ INPUT ./images/grundy_tree.png
 INPUT ./images/grundy_tree.png
 INPUT ./images/grundy_tree.png
 INPUT ./images/grundy_tree.png
-INPUT ./code/10-Misc./02-[Trick] Median of Medians.cpp
-INPUT ./_minted/4831088A562CB4914B1D2D6740E7ED76.highlight.minted
-INPUT ./_minted/4831088A562CB4914B1D2D6740E7ED76.highlight.minted
-INPUT _minted/4831088A562CB4914B1D2D6740E7ED76.highlight.minted
-INPUT ./code/10-Misc./04-Ternary Search.cpp
-INPUT ./_minted/A02137BE4CD7B535EFE8210B0BCEDA41.highlight.minted
-INPUT ./_minted/A02137BE4CD7B535EFE8210B0BCEDA41.highlight.minted
-INPUT _minted/A02137BE4CD7B535EFE8210B0BCEDA41.highlight.minted
-INPUT ./code/10-Misc./05-Pigeonhole Principle.cpp
-INPUT ./_minted/BCC37E4C4A54A3138E29FA78F3CD2FAB.highlight.minted
-INPUT ./_minted/BCC37E4C4A54A3138E29FA78F3CD2FAB.highlight.minted
-INPUT _minted/BCC37E4C4A54A3138E29FA78F3CD2FAB.highlight.minted
-INPUT ./code/10-Misc./07-Matrix Expo.cpp
-INPUT ./_minted/C1AF5DFB1DE80FD38E85944F7196F76D.highlight.minted
-INPUT ./_minted/C1AF5DFB1DE80FD38E85944F7196F76D.highlight.minted
-INPUT _minted/C1AF5DFB1DE80FD38E85944F7196F76D.highlight.minted
-INPUT ./code/10-Misc./08-2D Prefix Sum.cpp
-INPUT ./_minted/94A1B2D086B3CC2FD5F4481A4BA2587C.highlight.minted
-INPUT ./_minted/94A1B2D086B3CC2FD5F4481A4BA2587C.highlight.minted
-INPUT _minted/94A1B2D086B3CC2FD5F4481A4BA2587C.highlight.minted
-INPUT ./code/10-Misc./09-2D Static Range Update.cpp
-INPUT ./_minted/4B34873CFBDAAB7AA6C15A5A8AC38A8B.highlight.minted
-INPUT ./_minted/4B34873CFBDAAB7AA6C15A5A8AC38A8B.highlight.minted
-INPUT _minted/4B34873CFBDAAB7AA6C15A5A8AC38A8B.highlight.minted
-INPUT ./code/10-Misc./10-CHECK SET CLR.cpp
-INPUT ./_minted/0A4937C802F8D815EC63268C3AEF06C2.highlight.minted
-INPUT ./_minted/0A4937C802F8D815EC63268C3AEF06C2.highlight.minted
-INPUT _minted/0A4937C802F8D815EC63268C3AEF06C2.highlight.minted
-INPUT ./code/10-Misc./11-Graph Directions.cpp
-INPUT ./_minted/CE07AB5E2B1C269FBB36172D9C047890.highlight.minted
-INPUT ./_minted/CE07AB5E2B1C269FBB36172D9C047890.highlight.minted
-INPUT _minted/CE07AB5E2B1C269FBB36172D9C047890.highlight.minted
-INPUT ./code/10-Misc./12-Custom Hash.cpp
-INPUT ./_minted/D7A9820CEA12C08E709C74D47FBCA6AA.highlight.minted
-INPUT ./_minted/D7A9820CEA12C08E709C74D47FBCA6AA.highlight.minted
-INPUT _minted/D7A9820CEA12C08E709C74D47FBCA6AA.highlight.minted
-INPUT ./code/10-Misc./13-Coordinate Compression.cpp
-INPUT ./_minted/C19EF85136CC6665A31C48BF29820B27.highlight.minted
-INPUT ./_minted/C19EF85136CC6665A31C48BF29820B27.highlight.minted
-INPUT _minted/C19EF85136CC6665A31C48BF29820B27.highlight.minted
-INPUT ./code/10-Misc./14-Submask Generator.cpp
-INPUT ./_minted/E5D52462F0FFCF2C15453E802790D8F5.highlight.minted
-INPUT ./_minted/E5D52462F0FFCF2C15453E802790D8F5.highlight.minted
-INPUT _minted/E5D52462F0FFCF2C15453E802790D8F5.highlight.minted
-INPUT ./code/10-Misc./15-Custom Comparators.cpp
-INPUT ./_minted/390A8732997E9EC8EE787BC654D2C6F6.highlight.minted
-INPUT ./_minted/390A8732997E9EC8EE787BC654D2C6F6.highlight.minted
-INPUT _minted/390A8732997E9EC8EE787BC654D2C6F6.highlight.minted
-INPUT ./code/10-Misc./16-MOD Operations.cpp
-INPUT ./_minted/0B41A2C31A289F0764A09E0F4C3CFB7E.highlight.minted
-INPUT ./_minted/0B41A2C31A289F0764A09E0F4C3CFB7E.highlight.minted
-INPUT _minted/0B41A2C31A289F0764A09E0F4C3CFB7E.highlight.minted
-INPUT ./code/10-Misc./17-Mex with Array Updates.cpp
-INPUT ./_minted/AD4FE5C21DDAD4C94D2919CD360ED374.highlight.minted
-INPUT ./_minted/AD4FE5C21DDAD4C94D2919CD360ED374.highlight.minted
-INPUT _minted/AD4FE5C21DDAD4C94D2919CD360ED374.highlight.minted
-INPUT ./code/10-Misc./18-Check Eq AlphaQ.cpp
-INPUT ./_minted/276D2640875BA3E27B09DAEDF585C7F8.highlight.minted
-INPUT ./_minted/276D2640875BA3E27B09DAEDF585C7F8.highlight.minted
-INPUT _minted/276D2640875BA3E27B09DAEDF585C7F8.highlight.minted
-INPUT ./code/11-Geometry/01-Convex Hull.cpp
-INPUT ./_minted/0F4983BB8CCC0F8F9B490954F065CF72.highlight.minted
-INPUT ./_minted/0F4983BB8CCC0F8F9B490954F065CF72.highlight.minted
-INPUT _minted/0F4983BB8CCC0F8F9B490954F065CF72.highlight.minted
-INPUT ./code/11-Geometry/02-Area of 2 polygon intersection.cpp
-INPUT ./_minted/7B85934D75001BC51662BD65D9E68B55.highlight.minted
-INPUT ./_minted/7B85934D75001BC51662BD65D9E68B55.highlight.minted
-INPUT _minted/7B85934D75001BC51662BD65D9E68B55.highlight.minted
-INPUT ./code/11-Geometry/03-Point Segment Distance.cpp
-INPUT ./_minted/72B8D63A1A3EFDA3CB566AEA24D3DBE0.highlight.minted
-INPUT ./_minted/72B8D63A1A3EFDA3CB566AEA24D3DBE0.highlight.minted
-INPUT _minted/72B8D63A1A3EFDA3CB566AEA24D3DBE0.highlight.minted
-INPUT ./code/11-Geometry/04-Three Point Circle.cpp
-INPUT ./_minted/9837D049D0BDC09894163D22031271EC.highlight.minted
-INPUT ./_minted/9837D049D0BDC09894163D22031271EC.highlight.minted
-INPUT _minted/9837D049D0BDC09894163D22031271EC.highlight.minted
-INPUT ./code/11-Geometry/05-Circle Line Intersection.cpp
-INPUT ./_minted/B32E0CD8B7D02DA5F9935E69EBBCFBD3.highlight.minted
-INPUT ./_minted/B32E0CD8B7D02DA5F9935E69EBBCFBD3.highlight.minted
-INPUT _minted/B32E0CD8B7D02DA5F9935E69EBBCFBD3.highlight.minted
-INPUT ./images/shape-image-2.png
-INPUT ./images/shape-image-2.png
-INPUT ./images/shape-image-2.png
-INPUT ./images/shape-image-2.png
-INPUT ./images/shape-image-2.png
+INPUT ./code/10-Flow/02-Flow wtth L H bound.cpp
+INPUT ./_minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted
+INPUT ./_minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted
+INPUT _minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted
+INPUT ./code/10-Flow/03-Hopcroft Karp.cpp
+INPUT ./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted
+INPUT ./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted
+INPUT _minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted
+INPUT ./code/10-Flow/04-L H (work with cycle).cpp
+INPUT ./_minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted
+INPUT ./_minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted
+INPUT _minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted
+INPUT ./code/10-Flow/05-Max-Flow.cpp
+INPUT ./_minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted
+INPUT ./_minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted
+INPUT _minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted
+INPUT ./code/10-Flow/06-Max Flow with Min Cost.cpp
+INPUT ./_minted/1AF4F5CBF6608E7952748E5D7CB66454.highlight.minted
+INPUT ./_minted/1AF4F5CBF6608E7952748E5D7CB66454.highlight.minted
+INPUT _minted/1AF4F5CBF6608E7952748E5D7CB66454.highlight.minted
+INPUT ./code/10-Flow/17-Flow Properties.cpp
+INPUT ./_minted/3E2395A83316D026BD823D87876D669A.highlight.minted
+INPUT ./_minted/3E2395A83316D026BD823D87876D669A.highlight.minted
+INPUT _minted/3E2395A83316D026BD823D87876D669A.highlight.minted
+INPUT ./code/11-Misc./02-[Trick] Median of Medians.cpp
+INPUT ./_minted/2159D52AF3FCCCFF6F44109455CC8CFE.highlight.minted
+INPUT ./_minted/2159D52AF3FCCCFF6F44109455CC8CFE.highlight.minted
+INPUT _minted/2159D52AF3FCCCFF6F44109455CC8CFE.highlight.minted
+INPUT ./code/11-Misc./04-Ternary Search.cpp
+INPUT ./_minted/DFD23EB0B83C534E9AD75F5D47E5EA39.highlight.minted
+INPUT ./_minted/DFD23EB0B83C534E9AD75F5D47E5EA39.highlight.minted
+INPUT _minted/DFD23EB0B83C534E9AD75F5D47E5EA39.highlight.minted
+INPUT ./code/11-Misc./05-Pigeonhole Principle.cpp
+INPUT ./_minted/1CA3837CF0445177C5C0D10C8BBF7C51.highlight.minted
+INPUT ./_minted/1CA3837CF0445177C5C0D10C8BBF7C51.highlight.minted
+INPUT _minted/1CA3837CF0445177C5C0D10C8BBF7C51.highlight.minted
+INPUT ./code/11-Misc./07-Matrix Expo.cpp
+INPUT ./_minted/3CD0DE34B5820A8EECDBF06C21F56A55.highlight.minted
+INPUT ./_minted/3CD0DE34B5820A8EECDBF06C21F56A55.highlight.minted
+INPUT _minted/3CD0DE34B5820A8EECDBF06C21F56A55.highlight.minted
+INPUT ./code/11-Misc./08-2D Prefix Sum.cpp
+INPUT ./_minted/B24730CB8266BE0415B68D7DC82D5008.highlight.minted
+INPUT ./_minted/B24730CB8266BE0415B68D7DC82D5008.highlight.minted
+INPUT _minted/B24730CB8266BE0415B68D7DC82D5008.highlight.minted
+INPUT ./code/11-Misc./09-2D Static Range Update.cpp
+INPUT ./_minted/AF742A5DB05DD6BDAD89BC833DCB61A7.highlight.minted
+INPUT ./_minted/AF742A5DB05DD6BDAD89BC833DCB61A7.highlight.minted
+INPUT _minted/AF742A5DB05DD6BDAD89BC833DCB61A7.highlight.minted
+INPUT ./code/11-Misc./10-CHECK SET CLR.cpp
+INPUT ./_minted/09FC9642BC4271BE485DD2BF08653A27.highlight.minted
+INPUT ./_minted/09FC9642BC4271BE485DD2BF08653A27.highlight.minted
+INPUT _minted/09FC9642BC4271BE485DD2BF08653A27.highlight.minted
+INPUT ./code/11-Misc./11-Graph Directions.cpp
+INPUT ./_minted/BA377F3C2F39A078ABFB3E3E62C62597.highlight.minted
+INPUT ./_minted/BA377F3C2F39A078ABFB3E3E62C62597.highlight.minted
+INPUT _minted/BA377F3C2F39A078ABFB3E3E62C62597.highlight.minted
+INPUT ./code/11-Misc./12-Custom Hash.cpp
+INPUT ./_minted/18E9B1FBBE40F93AAFB4493F203A0CBB.highlight.minted
+INPUT ./_minted/18E9B1FBBE40F93AAFB4493F203A0CBB.highlight.minted
+INPUT _minted/18E9B1FBBE40F93AAFB4493F203A0CBB.highlight.minted
+INPUT ./code/11-Misc./13-Coordinate Compression.cpp
+INPUT ./_minted/3C4642DA8CE183F71B8CFC1049F6C130.highlight.minted
+INPUT ./_minted/3C4642DA8CE183F71B8CFC1049F6C130.highlight.minted
+INPUT _minted/3C4642DA8CE183F71B8CFC1049F6C130.highlight.minted
+INPUT ./code/11-Misc./14-Submask Generator.cpp
+INPUT ./_minted/A167E8D69C7F5E2E208F26F8A47691F8.highlight.minted
+INPUT ./_minted/A167E8D69C7F5E2E208F26F8A47691F8.highlight.minted
+INPUT _minted/A167E8D69C7F5E2E208F26F8A47691F8.highlight.minted
+INPUT ./code/11-Misc./15-Custom Comparators.cpp
+INPUT ./_minted/078F400CFECF53A57E171CAAD6CEBAEB.highlight.minted
+INPUT ./_minted/078F400CFECF53A57E171CAAD6CEBAEB.highlight.minted
+INPUT _minted/078F400CFECF53A57E171CAAD6CEBAEB.highlight.minted
+INPUT ./code/11-Misc./16-MOD Operations.cpp
+INPUT ./_minted/C6CEA59B4F7061B3684F462D673D75B7.highlight.minted
+INPUT ./_minted/C6CEA59B4F7061B3684F462D673D75B7.highlight.minted
+INPUT _minted/C6CEA59B4F7061B3684F462D673D75B7.highlight.minted
+INPUT ./code/11-Misc./17-Mex with Array Updates.cpp
+INPUT ./_minted/901DAF9A709105ADABF3BE293610E313.highlight.minted
+INPUT ./_minted/901DAF9A709105ADABF3BE293610E313.highlight.minted
+INPUT _minted/901DAF9A709105ADABF3BE293610E313.highlight.minted
+INPUT ./code/11-Misc./18-Check Eq AlphaQ.cpp
+INPUT ./_minted/D6CAD65E5C4065DE3E8B68D8534D60A1.highlight.minted
+INPUT ./_minted/D6CAD65E5C4065DE3E8B68D8534D60A1.highlight.minted
+INPUT _minted/D6CAD65E5C4065DE3E8B68D8534D60A1.highlight.minted
+INPUT ./code/12-Geometry/01-Convex Hull.cpp
+INPUT ./_minted/8FB766311B491ABEBB682936891A7735.highlight.minted
+INPUT ./_minted/8FB766311B491ABEBB682936891A7735.highlight.minted
+INPUT _minted/8FB766311B491ABEBB682936891A7735.highlight.minted
+INPUT ./code/12-Geometry/02-Area of 2 polygon intersection.cpp
+INPUT ./_minted/CF250AD06773E52E5AB309FAA294F847.highlight.minted
+INPUT ./_minted/CF250AD06773E52E5AB309FAA294F847.highlight.minted
+INPUT _minted/CF250AD06773E52E5AB309FAA294F847.highlight.minted
+INPUT ./code/12-Geometry/03-Point Segment Distance.cpp
+INPUT ./_minted/1912BCA4331C517149B7E4168784FFE7.highlight.minted
+INPUT ./_minted/1912BCA4331C517149B7E4168784FFE7.highlight.minted
+INPUT _minted/1912BCA4331C517149B7E4168784FFE7.highlight.minted
+INPUT ./code/12-Geometry/04-Three Point Circle.cpp
+INPUT ./_minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted
+INPUT ./_minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted
+INPUT _minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted
+INPUT ./code/12-Geometry/05-Circle Line Intersection.cpp
+INPUT ./_minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted
+INPUT ./_minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted
+INPUT _minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted
 INPUT Geometry/main.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
@@ -813,6 +823,16 @@ INPUT ./Geometry/Picture20.png
 INPUT ./Geometry/Picture20.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT ./images/shape-image-2.png
+INPUT ./images/shape-image-2.png
+INPUT ./images/shape-image-2.png
+INPUT ./images/shape-image-2.png
+INPUT ./images/shape-image-2.png
+INPUT ./images/shape-image-3.png
+INPUT ./images/shape-image-3.png
+INPUT ./images/shape-image-3.png
+INPUT ./images/shape-image-3.png
+INPUT ./images/shape-image-3.png
 INPUT notebook.aux
 INPUT ./notebook.out
 INPUT ./notebook.out

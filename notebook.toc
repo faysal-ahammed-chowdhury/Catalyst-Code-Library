@@ -51,39 +51,38 @@
 \contentsline {subsection}{\numberline {4.17}\small Persistent Segment Tree \scriptsize }{7}{subsection.4.17}%
 \contentsline {subsection}{\numberline {4.18}\small Trie for bit \scriptsize }{7}{subsection.4.18}%
 \contentsline {subsection}{\numberline {4.19}\small 2D BIT \scriptsize }{8}{subsection.4.19}%
-\contentsline {subsection}{\numberline {4.20}\small 2D Segment Tree \scriptsize }{8}{subsection.4.20}%
-\contentsline {section}{\numberline {5}Dynamic Programming}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}\small Knapsack 2 \scriptsize }{8}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}\small LIS using Segment Tree \scriptsize }{8}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}\small Digit DP \scriptsize }{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {4.20}\small Treap \scriptsize }{8}{subsection.4.20}%
+\contentsline {subsection}{\numberline {4.21}\small Centroid Decomposition \scriptsize }{9}{subsection.4.21}%
+\contentsline {section}{\numberline {5}Dynamic Programming}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\small Knapsack 2 \scriptsize }{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}\small LIS using Segment Tree \scriptsize }{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}\small Digit DP \scriptsize }{9}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}\small Bitmask DP \scriptsize }{9}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}\small MCM DP \scriptsize }{9}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}\small Number of Unique Subsequence \scriptsize }{9}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}\small [Problem] Rose Land - SUST 24 \scriptsize }{9}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.5}\small MCM DP \scriptsize }{10}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}\small Number of Unique Subsequence \scriptsize }{10}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}\small [Problem] Rose Land - SUST 24 \scriptsize }{10}{subsection.5.7}%
 \contentsline {subsection}{\numberline {5.8}\small DP with DS \scriptsize }{10}{subsection.5.8}%
 \contentsline {subsection}{\numberline {5.9}\small [Problem] Sub-Palindromic Tree \scriptsize }{10}{subsection.5.9}%
 \contentsline {subsection}{\numberline {5.10}\small SOS DP \scriptsize }{10}{subsection.5.10}%
-\contentsline {section}{\numberline {6}Graph Theory}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}\small Binary Lifting and LCA \scriptsize }{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}\small LCA and Sparse Table on Tree \scriptsize }{10}{subsection.6.2}%
+\contentsline {section}{\numberline {6}Graph Theory}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}\small Binary Lifting and LCA \scriptsize }{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}\small LCA and Sparse Table on Tree \scriptsize }{11}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}\small Dijkstra \scriptsize }{11}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}\small Bellman Ford \scriptsize }{11}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}\small Floyd Warshall \scriptsize }{11}{subsection.6.5}%
 \contentsline {subsection}{\numberline {6.6}\small Strongly Connected Components \scriptsize }{11}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}\small Articulation Points \scriptsize }{11}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}\small Find Bridges \scriptsize }{11}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}\small DSU on Tree \scriptsize }{11}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.7}\small Articulation Points \scriptsize }{12}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}\small Find Bridges \scriptsize }{12}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}\small DSU on Tree \scriptsize }{12}{subsection.6.9}%
 \contentsline {subsection}{\numberline {6.10}\small Heavy-Light Decomposition \scriptsize }{12}{subsection.6.10}%
 \contentsline {subsection}{\numberline {6.11}\small Inverse Graph \scriptsize }{12}{subsection.6.11}%
-\contentsline {subsection}{\numberline {6.12}\small [Problem] Rooted Tree - Hackerrank \scriptsize }{12}{subsection.6.12}%
-\contentsline {subsection}{\numberline {6.13}\small Dinic \scriptsize }{12}{subsection.6.13}%
-\contentsline {subsection}{\numberline {6.14}\small Flow Properties \scriptsize }{13}{subsection.6.14}%
+\contentsline {subsection}{\numberline {6.12}\small [Problem] Rooted Tree - Hackerrank \scriptsize }{13}{subsection.6.12}%
 \contentsline {section}{\numberline {7}String}{13}{section.7}%
 \contentsline {subsection}{\numberline {7.1}\small Hashing \scriptsize }{13}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}\small Hashing with Updates \scriptsize }{13}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}\small Hashing with Upd and Deletes \scriptsize }{13}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}\small Hashing on Tree \scriptsize }{14}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}\small Compare 2 strings Lexicographically \scriptsize }{14}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.5}\small Compare 2 strings Lexicographically \scriptsize }{15}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}\small KMP \scriptsize }{15}{subsection.7.6}%
 \contentsline {subsection}{\numberline {7.7}\small KMP Automata \scriptsize }{15}{subsection.7.7}%
 \contentsline {subsection}{\numberline {7.8}\small Prefix Occurance Count \scriptsize }{15}{subsection.7.8}%
@@ -93,33 +92,40 @@
 \contentsline {subsection}{\numberline {7.12}\small Suffix Array \scriptsize }{16}{subsection.7.12}%
 \contentsline {section}{\numberline {8}Game Theory}{17}{section.8}%
 \contentsline {subsection}{\numberline {8.1}\small Notes \scriptsize }{17}{subsection.8.1}%
-\contentsline {section}{\numberline {9}Misc.}{17}{section.9}%
-\contentsline {subsection}{\numberline {9.1}\small [Trick] Median of Medians \scriptsize }{17}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}\small Ternary Search \scriptsize }{17}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}\small Pigeonhole Principle \scriptsize }{17}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}\small Matrix Expo \scriptsize }{17}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}\small 2D Prefix Sum \scriptsize }{17}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}\small 2D Static Range Update \scriptsize }{17}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}\small CHECK SET CLR \scriptsize }{18}{subsection.9.7}%
-\contentsline {subsection}{\numberline {9.8}\small Graph Directions \scriptsize }{18}{subsection.9.8}%
-\contentsline {subsection}{\numberline {9.9}\small Custom Hash \scriptsize }{18}{subsection.9.9}%
-\contentsline {subsection}{\numberline {9.10}\small Coordinate Compression \scriptsize }{18}{subsection.9.10}%
-\contentsline {subsection}{\numberline {9.11}\small Submask Generator \scriptsize }{18}{subsection.9.11}%
-\contentsline {subsection}{\numberline {9.12}\small Custom Comparators \scriptsize }{18}{subsection.9.12}%
-\contentsline {subsection}{\numberline {9.13}\small MOD Operations \scriptsize }{18}{subsection.9.13}%
-\contentsline {subsection}{\numberline {9.14}\small Mex with Array Updates \scriptsize }{18}{subsection.9.14}%
-\contentsline {subsection}{\numberline {9.15}\small Check Eq AlphaQ \scriptsize }{18}{subsection.9.15}%
-\contentsline {section}{\numberline {10}Geometry}{18}{section.10}%
-\contentsline {subsection}{\numberline {10.1}\small Convex Hull \scriptsize }{18}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}\small Area of 2 polygon intersection \scriptsize }{18}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}\small Point Segment Distance \scriptsize }{19}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}\small Three Point Circle \scriptsize }{19}{subsection.10.4}%
-\contentsline {subsection}{\numberline {10.5}\small Circle Line Intersection \scriptsize }{19}{subsection.10.5}%
-\contentsline {section}{\numberline {11}Solid Geometry}{22}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Rectangular Solid}{22}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Cube}{22}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Cylinder}{22}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Prism}{22}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Pyramid}{22}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}Right Circular Cone}{22}{subsection.11.6}%
-\contentsline {subsection}{\numberline {11.7}Sphere}{22}{subsection.11.7}%
+\contentsline {section}{\numberline {9}Flow}{17}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\small Flow wtth L H bound \scriptsize }{17}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}\small Hopcroft Karp \scriptsize }{17}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}\small L H (work with cycle) \scriptsize }{18}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}\small Max-Flow \scriptsize }{18}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}\small Max Flow with Min Cost \scriptsize }{19}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}\small Flow Properties \scriptsize }{19}{subsection.9.6}%
+\contentsline {section}{\numberline {10}Misc.}{19}{section.10}%
+\contentsline {subsection}{\numberline {10.1}\small [Trick] Median of Medians \scriptsize }{19}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}\small Ternary Search \scriptsize }{19}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}\small Pigeonhole Principle \scriptsize }{19}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}\small Matrix Expo \scriptsize }{19}{subsection.10.4}%
+\contentsline {subsection}{\numberline {10.5}\small 2D Prefix Sum \scriptsize }{20}{subsection.10.5}%
+\contentsline {subsection}{\numberline {10.6}\small 2D Static Range Update \scriptsize }{20}{subsection.10.6}%
+\contentsline {subsection}{\numberline {10.7}\small CHECK SET CLR \scriptsize }{20}{subsection.10.7}%
+\contentsline {subsection}{\numberline {10.8}\small Graph Directions \scriptsize }{20}{subsection.10.8}%
+\contentsline {subsection}{\numberline {10.9}\small Custom Hash \scriptsize }{20}{subsection.10.9}%
+\contentsline {subsection}{\numberline {10.10}\small Coordinate Compression \scriptsize }{20}{subsection.10.10}%
+\contentsline {subsection}{\numberline {10.11}\small Submask Generator \scriptsize }{20}{subsection.10.11}%
+\contentsline {subsection}{\numberline {10.12}\small Custom Comparators \scriptsize }{20}{subsection.10.12}%
+\contentsline {subsection}{\numberline {10.13}\small MOD Operations \scriptsize }{20}{subsection.10.13}%
+\contentsline {subsection}{\numberline {10.14}\small Mex with Array Updates \scriptsize }{20}{subsection.10.14}%
+\contentsline {subsection}{\numberline {10.15}\small Check Eq AlphaQ \scriptsize }{20}{subsection.10.15}%
+\contentsline {section}{\numberline {11}Geometry}{20}{section.11}%
+\contentsline {subsection}{\numberline {11.1}\small Convex Hull \scriptsize }{20}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}\small Area of 2 polygon intersection \scriptsize }{21}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}\small Point Segment Distance \scriptsize }{21}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}\small Three Point Circle \scriptsize }{21}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}\small Circle Line Intersection \scriptsize }{21}{subsection.11.5}%
+\contentsline {section}{\numberline {12}Solid Geometry}{23}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Rectangular Solid}{23}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Cube}{23}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Cylinder}{23}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Prism}{24}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Pyramid}{24}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Right Circular Cone}{24}{subsection.12.6}%
+\contentsline {subsection}{\numberline {12.7}Sphere}{24}{subsection.12.7}%
