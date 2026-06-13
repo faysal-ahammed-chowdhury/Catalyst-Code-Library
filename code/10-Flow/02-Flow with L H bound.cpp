@@ -110,10 +110,22 @@ struct LR_Flow {
     return ans;
   }
 };
-//inistialize:  LR_Flow mr_warlock(n+1);
-//Edge:         mr_warlock.AddEdge(u,v,l,h,idx); + ans[i]=l;
-//ans:          mr_warlock.feasible();
-//    for(int i=1; i<=m; i++){
-//        ans[i]+=mr_warlock.F.flow_through[i];
-//    }
-//https://codeforces.com/gym/100199/attachments   (B)
+int n, m;  cin >> n >> m;
+int dummy_source = 0;
+int dummy_sink = n + 1;
+Dinic *mr_warlock = new Dinic(n + 2);
+int sum = 0;
+for (int i = 1; i <= m; i++) {
+  int u, v, l, h;    cin >> u >> v >> l >> h;
+  sum += l; ans[i] = l;
+  mr_warlock->AddEdge(u, v, h - l, i);
+  mr_warlock->AddEdge(u, dummy_sink, l, 0);
+  mr_warlock->AddEdge(dummy_source, v, l, 0);
+}
+int z = mr_warlock->GetMaxFlow(dummy_source, dummy_sink);
+if (sum != z) {NO; return;}
+cal_ans(*mr_warlock);
+YES;
+for (int i = 1; i <= m; i++) {
+  cout << ans[i] << endl;
+}

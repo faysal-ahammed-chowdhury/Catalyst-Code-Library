@@ -453,6 +453,10 @@ INPUT ./code/05-Data Structure/19-MOs with Updates.cpp
 INPUT ./_minted/B5857FC5D82D4A7D22579693BCDAF40B.highlight.minted
 INPUT ./_minted/B5857FC5D82D4A7D22579693BCDAF40B.highlight.minted
 INPUT _minted/B5857FC5D82D4A7D22579693BCDAF40B.highlight.minted
+INPUT ./code/05-Data Structure/20-Wavelet Tree.cpp
+INPUT ./_minted/83D0C26B25EA9E2F9CD526A66C61041D.highlight.minted
+INPUT ./_minted/83D0C26B25EA9E2F9CD526A66C61041D.highlight.minted
+INPUT _minted/83D0C26B25EA9E2F9CD526A66C61041D.highlight.minted
 INPUT ./code/05-Data Structure/21-Persistent Segment Tree.cpp
 INPUT ./_minted/826F704DA2035E3533923FA810259E5D.highlight.minted
 INPUT ./_minted/826F704DA2035E3533923FA810259E5D.highlight.minted
@@ -619,22 +623,18 @@ INPUT ./images/grundy_tree.png
 INPUT ./images/grundy_tree.png
 INPUT ./images/grundy_tree.png
 INPUT ./images/grundy_tree.png
-INPUT ./code/10-Flow/02-Flow wtth L H bound.cpp
-INPUT ./_minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted
-INPUT ./_minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted
-INPUT _minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted
+INPUT ./code/10-Flow/02-Flow with L H bound.cpp
+INPUT ./_minted/41EC1FE9ACA42F0CFD90224C2455238A.highlight.minted
+INPUT ./_minted/41EC1FE9ACA42F0CFD90224C2455238A.highlight.minted
+INPUT _minted/41EC1FE9ACA42F0CFD90224C2455238A.highlight.minted
 INPUT ./code/10-Flow/03-Hopcroft Karp.cpp
 INPUT ./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted
 INPUT ./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted
 INPUT _minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted
-INPUT ./code/10-Flow/04-L H (work with cycle).cpp
-INPUT ./_minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted
-INPUT ./_minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted
-INPUT _minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted
 INPUT ./code/10-Flow/05-Max-Flow.cpp
-INPUT ./_minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted
-INPUT ./_minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted
-INPUT _minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted
+INPUT ./_minted/EBEFAE5B5D21F142AAC174694FE9530C.highlight.minted
+INPUT ./_minted/EBEFAE5B5D21F142AAC174694FE9530C.highlight.minted
+INPUT _minted/EBEFAE5B5D21F142AAC174694FE9530C.highlight.minted
 INPUT ./code/10-Flow/06-Max Flow with Min Cost.cpp
 INPUT ./_minted/1AF4F5CBF6608E7952748E5D7CB66454.highlight.minted
 INPUT ./_minted/1AF4F5CBF6608E7952748E5D7CB66454.highlight.minted
@@ -720,9 +720,9 @@ INPUT ./_minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted
 INPUT ./_minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted
 INPUT _minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted
 INPUT ./code/12-Geometry/05-Circle Line Intersection.cpp
-INPUT ./_minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted
-INPUT ./_minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted
-INPUT _minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted
+INPUT ./_minted/6E2ABD312BE4C6AB2928AF206130D1D1.highlight.minted
+INPUT ./_minted/6E2ABD312BE4C6AB2928AF206130D1D1.highlight.minted
+INPUT _minted/6E2ABD312BE4C6AB2928AF206130D1D1.highlight.minted
 INPUT Geometry/main.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm

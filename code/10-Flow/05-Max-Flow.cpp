@@ -101,20 +101,15 @@ void PrintGraph(const Dinic &dinic) {
 // Add Edge : mr_warlock->AddEdge(a,b,c);
 // Get Max Flow : mr_warlock->GetMaxFlow(s,t);
 // delete (mr_warlock);
-
 //or
-
 // Initialization : Dinic mr_warlock(n+1);
 // Add Edge : mr_warlock.AddEdge(a,b,c);
 // Get Max Flow : mr_warlock.GetMaxFlow(s,t);
 // delete: no need
-
 /*
     --augment_one--
-
     store edge id
     e_id[i][j]=mr_warlock.G[i+1].size();
-
     u->v
     Edge &e = mr_warlock.G[u][e_id[i][j]];
     Edge &rev = mr_warlock.G[v][e.index];

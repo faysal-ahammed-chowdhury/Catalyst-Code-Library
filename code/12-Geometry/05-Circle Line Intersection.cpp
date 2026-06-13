@@ -18,6 +18,4 @@ void circle_line() {
     double by = y0 + a * mult;
     cout << "2 points" << endl;
     cout << ax + cx << ' ' << ay + cy << endl;
-    cout << bx + cx << ' ' << by + cy << endl;
-  }
-}
+    cout << bx + cx << ' ' << by + cy << endl;}}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.15)  9 JUN 2026 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.15)  14 JUN 2026 00:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -748,11 +748,11 @@ Underfull \hbox (badness 5711) in paragraph at lines 43--43
 \pydata@fh@_FB5D1B4A2312E239652B13A24ED9A74F.data.minted=\write6
 \openout6 = `_FB5D1B4A2312E239652B13A24ED9A74F.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260609193143 FB5D1B4A2312E239652B13
+runsystem(latexminted config  --timestamp 20260614005337 FB5D1B4A2312E239652B13
 A24ED9A74F)...executed.
 
  (./_FB5D1B4A2312E239652B13A24ED9A74F.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260609193143 FB5D1B4A2312E2396
+runsystem(latexminted cleanconfig  --timestamp 20260614005337 FB5D1B4A2312E2396
 52B13A24ED9A74F)...executed.
 
 
@@ -837,60 +837,60 @@ ted_value_1.png>]) (./_minted/15986211F5C22EE4B55A04334A93D381.highlight.minted
 (./_minted/EEECAEBE8601545F8D62CD0553123833.highlight.minted)
 (./_minted/7772DC51703DEA12A7F99C2F9287E4B3.highlight.minted [6])
 (./_minted/B5857FC5D82D4A7D22579693BCDAF40B.highlight.minted)
-(./_minted/826F704DA2035E3533923FA810259E5D.highlight.minted)
-(./_minted/907A68687FD63FDCE1609B68065D7493.highlight.minted [7])
+(./_minted/83D0C26B25EA9E2F9CD526A66C61041D.highlight.minted)
+(./_minted/826F704DA2035E3533923FA810259E5D.highlight.minted [7])
+(./_minted/907A68687FD63FDCE1609B68065D7493.highlight.minted)
 (./_minted/9E67913AEC1E88A48D214E8666FBA439.highlight.minted)
-(./_minted/55AB449C1310B9100D8B0A5E3865E9D6.highlight.minted)
-(./_minted/3DB29484BEB03DAEBB009CDCD9E5FE4D.highlight.minted [8])
+(./_minted/55AB449C1310B9100D8B0A5E3865E9D6.highlight.minted [8])
+(./_minted/3DB29484BEB03DAEBB009CDCD9E5FE4D.highlight.minted)
 (./_minted/0CEE621AACA47A09391FB5B892E4A6D7.highlight.minted)
 (./_minted/21BA4DF529F841FDDE4AFBBAB41AEAF1.highlight.minted)
-(./_minted/E0D007147D0A713842BE4F509EBA5797.highlight.minted)
-(./_minted/C42B1019A9E8EF0AEAD2F214E45E39B2.highlight.minted [9])
+(./_minted/E0D007147D0A713842BE4F509EBA5797.highlight.minted [9])
+(./_minted/C42B1019A9E8EF0AEAD2F214E45E39B2.highlight.minted)
 (./_minted/7AC87AB7CEFDE499AA651C85D19D0AA7.highlight.minted)
 (./_minted/03014D482FFD5E522F059EE51B3E4188.highlight.minted)
 (./_minted/F057F73FB0F36C6600B74E4FE180347A.highlight.minted)
-(./_minted/E72BE731524C455515D745DFCE5B1199.highlight.minted)
+(./_minted/E72BE731524C455515D745DFCE5B1199.highlight.minted [10])
 (./_minted/084DF9930DCF546BEA5539B0856ECF23.highlight.minted)
-(./_minted/9290BF891EB4163EFFC8BEC50715D6D9.highlight.minted [10])
+(./_minted/9290BF891EB4163EFFC8BEC50715D6D9.highlight.minted)
 (./_minted/66A825C765FBC7A26961A98F8D7D693D.highlight.minted)
 (./_minted/9B7D17330271D9EBF3CDE1E1666E6AEE.highlight.minted)
 (./_minted/9AB63C83A75C7210D6F95BBF56477FC6.highlight.minted)
-(./_minted/0DAF96E0351633324D57262A256A4AA3.highlight.minted)
+(./_minted/0DAF96E0351633324D57262A256A4AA3.highlight.minted [11])
 (./_minted/EAA2140B6B5821CBB8334A1DBCE20B6F.highlight.minted)
-(./_minted/D51F64BE13CCF4E00A22E999FDB27218.highlight.minted [11])
+(./_minted/D51F64BE13CCF4E00A22E999FDB27218.highlight.minted)
 (./_minted/BEA6BA0475AEEE735C490BD77FFDC717.highlight.minted)
 (./_minted/19AB9B43C118F09B2B1C98B111CBC159.highlight.minted)
-(./_minted/6A6382ED619E1964F4A512193FF608E2.highlight.minted)
+(./_minted/6A6382ED619E1964F4A512193FF608E2.highlight.minted [12])
 (./_minted/F42F1E84310720C3FB420B70DDFCA13E.highlight.minted)
-(./_minted/F6DAF01A2A41979FF6FA6C78C676F148.highlight.minted [12])
+(./_minted/F6DAF01A2A41979FF6FA6C78C676F148.highlight.minted)
 (./_minted/0BC3F800F3F2E3F822E2580617EECBFE.highlight.minted)
 (./_minted/936156BA85BE88EB8C7BC5979D04F537.highlight.minted)
-(./_minted/472A6EC6ADFACBCD0F21DA63381F3989.highlight.minted)
-(./_minted/B2C39EFB80B249D7E76A03AABDF6E327.highlight.minted [13])
-(./_minted/463B61C96E9858F7FBD7D89C534C0385.highlight.minted [14])
+(./_minted/472A6EC6ADFACBCD0F21DA63381F3989.highlight.minted [13])
+(./_minted/B2C39EFB80B249D7E76A03AABDF6E327.highlight.minted [14])
+(./_minted/463B61C96E9858F7FBD7D89C534C0385.highlight.minted)
 (./_minted/D2008F728F023726F2C4AC7004E4212E.highlight.minted)
 (./_minted/7476E9D421E3428D1DD037E990775982.highlight.minted)
 (./_minted/5B3E9425699F47540174A10DD8383B0E.highlight.minted)
 (./_minted/C719B833C98F9E1361B02C9801986DEC.highlight.minted)
-(./_minted/8F0A2701CC75F4F8028887B4B28DEAED.highlight.minted)
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
+(./_minted/8F0A2701CC75F4F8028887B4B28DEAED.highlight.minted [15])
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
-(./_minted/AA1B65D7BEB0451A72E73B028AEC8C2D.highlight.minted [15])
+(./_minted/AA1B65D7BEB0451A72E73B028AEC8C2D.highlight.minted)
 (./_minted/FDBD7C70D25D68815835C92A031AB54A.highlight.minted)
 (./_minted/DDF1B4B60AAFEAE07DD67A8AC80AEACF.highlight.minted [16])
 (./_minted/F3424EAD57075C291283CA6C13986EE2.highlight.minted)
 <images/grundy_tree.png, id=771, 675.52374pt x 430.60875pt>
 File: images/grundy_tree.png Graphic file (type png)
 <use images/grundy_tree.png>
-Package pdftex.def Info: images/grundy_tree.png  used on input line 544.
+Package pdftex.def Info: images/grundy_tree.png  used on input line 547.
 (pdftex.def)             Requested size: 94.93167pt x 60.50821pt.
 
-(./_minted/4C46752CA1D17FBBF370D6485CCA886F.highlight.minted)
-(./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted [17 <./images/grun
-dy_tree.png>]) (./_minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted)
-(./_minted/4259BAE1BF5E16FE710285AC9B3FA399.highlight.minted [18])
+(./_minted/41EC1FE9ACA42F0CFD90224C2455238A.highlight.minted [17 <./images/grun
+dy_tree.png>]) (./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted)
+(./_minted/EBEFAE5B5D21F142AAC174694FE9530C.highlight.minted [18])
 (./_minted/1AF4F5CBF6608E7952748E5D7CB66454.highlight.minted)
 (./_minted/3E2395A83316D026BD823D87876D669A.highlight.minted)
 (./_minted/2159D52AF3FCCCFF6F44109455CC8CFE.highlight.minted)
@@ -912,7 +912,7 @@ dy_tree.png>]) (./_minted/C2737F883EEBFAD9FE2085B51176D8DA.highlight.minted)
 (./_minted/CF250AD06773E52E5AB309FAA294F847.highlight.minted)
 (./_minted/1912BCA4331C517149B7E4168784FFE7.highlight.minted)
 (./_minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted)
-(./_minted/CEF80D7AC39BA888F4395258D6F661BC.highlight.minted)) [21]
+(./_minted/6E2ABD312BE4C6AB2928AF206130D1D1.highlight.minted)) [21]
 (./Geometry/main.tex
 <Geometry/Picture9.png, id=794, 71.51718pt x 53.44969pt>
 File: Geometry/Picture9.png Graphic file (type png)
@@ -1034,12 +1034,12 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `notebook.out' has not changed.
-(rerunfilecheck)             Checksum: 14A502259F962FE1BE70FE1C6947BEC2;20904.
+(rerunfilecheck)             Checksum: B7598C56CB5679F5FC395CAABE2FA6A8;20845.
  ) 
 Here is how much of TeX's memory you used:
  19392 strings out of 473197
- 383022 string characters out of 5718605
- 1287184 words of memory out of 5000000
+ 383024 string characters out of 5718605
+ 1275801 words of memory out of 5000000
  41842 multiletter control sequences out of 15000+600000
  570772 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1077,7 +1077,7 @@ blic/amsfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 fit0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfrm1000.pfb>
-Output written on notebook.pdf (26 pages, 1254884 bytes).
+Output written on notebook.pdf (26 pages, 1255011 bytes).
 PDF statistics:
  1103 PDF objects out of 1200 (max. 8388607)
  948 compressed objects within 10 object streams
