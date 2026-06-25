@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.15)  25 JUN 2026 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.15)  25 JUN 2026 22:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -719,8 +719,25 @@ e
 <images/aiub-logo.png, id=530, 876.27374pt x 869.2475pt>
 File: images/aiub-logo.png Graphic file (type png)
 <use images/aiub-logo.png>
-Package pdftex.def Info: images/aiub-logo.png  used on input line 9.
-(pdftex.def)             Requested size: 124.58372pt x 123.57726pt.
+Package pdftex.def Info: images/aiub-logo.png  used on input line 5.
+(pdftex.def)             Requested size: 149.50046pt x 148.30066pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <32> not available
+(Font)              size <24.88> substituted on input line 9.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <32> not available
+(Font)              size <24.88> substituted on input line 9.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <40> not available
+(Font)              size <24.88> substituted on input line 14.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <40> not available
+(Font)              size <24.88> substituted on input line 14.
+
 
 
 [1
@@ -748,11 +765,11 @@ Underfull \hbox (badness 5711) in paragraph at lines 43--43
 \pydata@fh@_FB5D1B4A2312E239652B13A24ED9A74F.data.minted=\write6
 \openout6 = `_FB5D1B4A2312E239652B13A24ED9A74F.data.minted'.
 
-runsystem(latexminted config  --timestamp 20260625145131 FB5D1B4A2312E239652B13
+runsystem(latexminted config  --timestamp 20260625223710 FB5D1B4A2312E239652B13
 A24ED9A74F)...executed.
 
  (./_FB5D1B4A2312E239652B13A24ED9A74F.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20260625145131 FB5D1B4A2312E2396
+runsystem(latexminted cleanconfig  --timestamp 20260625223710 FB5D1B4A2312E2396
 52B13A24ED9A74F)...executed.
 
 
@@ -804,7 +821,7 @@ Overfull \hbox (3.96631pt too wide) in paragraph at lines 221--223
  []
 
 [3] (./_minted/796DBF1CA510C91966B7AE145DEB8962.highlight.minted)
-<images/expected_value_1.png, id=713, 638.385pt x 219.82124pt>
+<images/expected_value_1.png, id=712, 638.385pt x 219.82124pt>
 File: images/expected_value_1.png Graphic file (type png)
 <use images/expected_value_1.png>
 Package pdftex.def Info: images/expected_value_1.png  used on input line 257.
@@ -882,7 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--511
 (./_minted/FDBD7C70D25D68815835C92A031AB54A.highlight.minted)
 (./_minted/DDF1B4B60AAFEAE07DD67A8AC80AEACF.highlight.minted [16])
 (./_minted/F3424EAD57075C291283CA6C13986EE2.highlight.minted)
-<images/grundy_tree.png, id=771, 675.52374pt x 430.60875pt>
+<images/grundy_tree.png, id=770, 675.52374pt x 430.60875pt>
 File: images/grundy_tree.png Graphic file (type png)
 <use images/grundy_tree.png>
 Package pdftex.def Info: images/grundy_tree.png  used on input line 547.
@@ -914,74 +931,74 @@ dy_tree.png>]) (./_minted/FAA5EC8EBB0E06867D4B85FB3663BA02.highlight.minted)
 (./_minted/AD85B18F40C56D07EBE75C33E144423D.highlight.minted)
 (./_minted/6E2ABD312BE4C6AB2928AF206130D1D1.highlight.minted)) [21]
 (./Geometry/main.tex
-<Geometry/Picture9.png, id=794, 71.51718pt x 53.44969pt>
+<Geometry/Picture9.png, id=793, 71.51718pt x 53.44969pt>
 File: Geometry/Picture9.png Graphic file (type png)
 <use Geometry/Picture9.png>
 Package pdftex.def Info: Geometry/Picture9.png  used on input line 277.
 (pdftex.def)             Requested size: 119.47035pt x 56.90512pt.
-<Geometry/Picture1.png, id=795, 41.4047pt x 38.39343pt>
+<Geometry/Picture1.png, id=794, 41.4047pt x 38.39343pt>
 File: Geometry/Picture1.png Graphic file (type png)
 <use Geometry/Picture1.png>
 Package pdftex.def Info: Geometry/Picture1.png  used on input line 319.
 (pdftex.def)             Requested size: 39.82384pt x 56.90924pt.
-<Geometry/Picture2.png, id=796, 51.19125pt x 36.88782pt>
+<Geometry/Picture2.png, id=795, 51.19125pt x 36.88782pt>
 File: Geometry/Picture2.png Graphic file (type png)
 <use Geometry/Picture2.png>
 Package pdftex.def Info: Geometry/Picture2.png  used on input line 331.
 (pdftex.def)             Requested size: 39.82433pt x 56.90701pt.
-<Geometry/Picture3.png, id=797, 79.79813pt x 68.50594pt>
+<Geometry/Picture3.png, id=796, 79.79813pt x 68.50594pt>
 File: Geometry/Picture3.png Graphic file (type png)
 <use Geometry/Picture3.png>
 Package pdftex.def Info: Geometry/Picture3.png  used on input line 352.
 (pdftex.def)             Requested size: 119.46916pt x 56.90695pt.
-<Geometry/Picture4.png, id=798, 301.125pt x 276.03125pt>
+<Geometry/Picture4.png, id=797, 301.125pt x 276.03125pt>
 File: Geometry/Picture4.png Graphic file (type png)
 <use Geometry/Picture4.png>
 Package pdftex.def Info: Geometry/Picture4.png  used on input line 369.
 (pdftex.def)             Requested size: 119.46916pt x 56.90265pt.
-<Geometry/Picture5.png, id=799, 723.70375pt x 474.77374pt>
+<Geometry/Picture5.png, id=798, 723.70375pt x 474.77374pt>
 File: Geometry/Picture5.png Graphic file (type png)
 <use Geometry/Picture5.png>
 Package pdftex.def Info: Geometry/Picture5.png  used on input line 376.
 (pdftex.def)             Requested size: 119.46118pt x 56.90518pt.
  [22 <./Geometry/Picture9.png> <./Geometry/Picture1.png> <./Geometry/Picture2.p
 ng> <./Geometry/Picture3.png>]
-<Geometry/Picture6.png, id=823, 502.2765pt x 320.1561pt>
+<Geometry/Picture6.png, id=822, 502.2765pt x 320.1561pt>
 File: Geometry/Picture6.png Graphic file (type png)
 <use Geometry/Picture6.png>
 Package pdftex.def Info: Geometry/Picture6.png  used on input line 383.
 (pdftex.def)             Requested size: 119.46819pt x 56.90259pt.
-<Geometry/Picture7.png, id=824, 50.43843pt x 39.14626pt>
+<Geometry/Picture7.png, id=823, 50.43843pt x 39.14626pt>
 File: Geometry/Picture7.png Graphic file (type png)
 <use Geometry/Picture7.png>
 Package pdftex.def Info: Geometry/Picture7.png  used on input line 393.
 (pdftex.def)             Requested size: 119.47pt x 56.90753pt.
-<Geometry/Picture8.png, id=825, 57.96657pt x 42.1575pt>
+<Geometry/Picture8.png, id=824, 57.96657pt x 42.1575pt>
 File: Geometry/Picture8.png Graphic file (type png)
 <use Geometry/Picture8.png>
 Package pdftex.def Info: Geometry/Picture8.png  used on input line 401.
 (pdftex.def)             Requested size: 119.47966pt x 56.90692pt.
-<Geometry/Picture10.png, id=826, 85.41pt x 53.5455pt>
+<Geometry/Picture10.png, id=825, 85.41pt x 53.5455pt>
 File: Geometry/Picture10.png Graphic file (type png)
 <use Geometry/Picture10.png>
 Package pdftex.def Info: Geometry/Picture10.png  used on input line 423.
 (pdftex.def)             Requested size: 119.47281pt x 56.90747pt.
-<Geometry/Picture11.png, id=827, 57.4875pt x 56.502pt>
+<Geometry/Picture11.png, id=826, 57.4875pt x 56.502pt>
 File: Geometry/Picture11.png Graphic file (type png)
 <use Geometry/Picture11.png>
 Package pdftex.def Info: Geometry/Picture11.png  used on input line 458.
 (pdftex.def)             Requested size: 119.47467pt x 56.90706pt.
-<Geometry/Picture12.png, id=828, 351.3125pt x 239.89626pt>
+<Geometry/Picture12.png, id=827, 351.3125pt x 239.89626pt>
 File: Geometry/Picture12.png Graphic file (type png)
 <use Geometry/Picture12.png>
 Package pdftex.def Info: Geometry/Picture12.png  used on input line 482.
 (pdftex.def)             Requested size: 114.0787pt x 56.90274pt.
-<Geometry/Picture13.png, id=829, 230.8625pt x 219.82124pt>
+<Geometry/Picture13.png, id=828, 230.8625pt x 219.82124pt>
 File: Geometry/Picture13.png Graphic file (type png)
 <use Geometry/Picture13.png>
 Package pdftex.def Info: Geometry/Picture13.png  used on input line 487.
 (pdftex.def)             Requested size: 114.07825pt x 56.90396pt.
-<Geometry/Picture15.png, id=830, 139.27031pt x 82.05656pt>
+<Geometry/Picture15.png, id=829, 139.27031pt x 82.05656pt>
 File: Geometry/Picture15.png Graphic file (type png)
 <use Geometry/Picture15.png>
 Package pdftex.def Info: Geometry/Picture15.png  used on input line 596.
@@ -990,63 +1007,69 @@ Package pdftex.def Info: Geometry/Picture15.png  used on input line 596.
 ng> <./Geometry/Picture7.png> <./Geometry/Picture8.png> <./Geometry/Picture10.p
 ng> <./Geometry/Picture11.png> <./Geometry/Picture12.png> <./Geometry/Picture13
 .png> <./Geometry/Picture15.png>]
-<Geometry/Picture16.png, id=851, 113.67468pt x 42.91031pt>
+<Geometry/Picture16.png, id=850, 113.67468pt x 42.91031pt>
 File: Geometry/Picture16.png Graphic file (type png)
 <use Geometry/Picture16.png>
 Package pdftex.def Info: Geometry/Picture16.png  used on input line 618.
 (pdftex.def)             Requested size: 119.47119pt x 113.82108pt.
-<Geometry/Picture17.png, id=852, 124.21407pt x 51.19125pt>
+<Geometry/Picture17.png, id=851, 124.21407pt x 51.19125pt>
 File: Geometry/Picture17.png Graphic file (type png)
 <use Geometry/Picture17.png>
 Package pdftex.def Info: Geometry/Picture17.png  used on input line 633.
 (pdftex.def)             Requested size: 119.46967pt x 113.81853pt.
-<Geometry/Picture18.png, id=853, 195.129pt x 140.9265pt>
+<Geometry/Picture18.png, id=852, 195.129pt x 140.9265pt>
 File: Geometry/Picture18.png Graphic file (type png)
 <use Geometry/Picture18.png>
 Package pdftex.def Info: Geometry/Picture18.png  used on input line 666.
 (pdftex.def)             Requested size: 119.46916pt x 113.81438pt.
-<Geometry/Picture19.png, id=854, 356.532pt x 112.62074pt>
+<Geometry/Picture19.png, id=853, 356.532pt x 112.62074pt>
 File: Geometry/Picture19.png Graphic file (type png)
 <use Geometry/Picture19.png>
 Package pdftex.def Info: Geometry/Picture19.png  used on input line 696.
 (pdftex.def)             Requested size: 119.46751pt x 113.81305pt.
-<Geometry/Picture20.png, id=855, 56.502pt x 51.246pt>
+<Geometry/Picture20.png, id=854, 56.502pt x 51.246pt>
 File: Geometry/Picture20.png Graphic file (type png)
 <use Geometry/Picture20.png>
 Package pdftex.def Info: Geometry/Picture20.png  used on input line 732.
 (pdftex.def)             Requested size: 119.47243pt x 113.81905pt.
  [24 <./Geometry/Picture16.png> <./Geometry/Picture17.png> <./Geometry/Picture1
 8.png> <./Geometry/Picture19.png> <./Geometry/Picture20.png>]
-<images/shape-image-2.png, id=893, 341.47575pt x 436.029pt>
+<images/shape-image-2.png, id=892, 341.47575pt x 436.029pt>
 File: images/shape-image-2.png Graphic file (type png)
 <use images/shape-image-2.png>
 Package pdftex.def Info: images/shape-image-2.png  used on input line 1034.
 (pdftex.def)             Requested size: 139.37799pt x 177.96799pt.
-<images/shape-image-3.png, id=894, 432.61626pt x 203.76125pt>
+<images/shape-image-3.png, id=893, 432.61626pt x 203.76125pt>
 File: images/shape-image-3.png Graphic file (type png)
 <use images/shape-image-3.png>
 Package pdftex.def Info: images/shape-image-3.png  used on input line 1035.
 (pdftex.def)             Requested size: 199.1123pt x 93.78105pt.
 
-(./_minted/CE31D39E6270303BF2BCCBFBC979F1AD.highlight.minted
+(./_minted/A63DD8238E5B6E1AE5CCE1E11EAFAE81.highlight.minted
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <7> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4.
 )
-(./_minted/488ADE24F1AF4670A985C6B2C38B89EC.highlight.minted) [25 <./images/sha
+(./_minted/B66EDFBA533C6EAD321618988096928B.highlight.minted)
+(./_minted/021279C02EBEA9279CDE9912E3231BC2.highlight.minted) [25 <./images/sha
 pe-image-2.png (PNG copy)> <./images/shape-image-3.png>]) (./notebook.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 15.12pt have occurred.
+
 Package rerunfilecheck Info: File `notebook.out' has not changed.
 (rerunfilecheck)             Checksum: B7598C56CB5679F5FC395CAABE2FA6A8;20845.
  ) 
 Here is how much of TeX's memory you used:
- 19426 strings out of 473197
- 384235 string characters out of 5718605
- 1275801 words of memory out of 5000000
- 41869 multiletter control sequences out of 15000+600000
- 571252 words of font info for 84 fonts, out of 8000000 for 9000
+ 19440 strings out of 473197
+ 384736 string characters out of 5718605
+ 1275805 words of memory out of 5000000
+ 41880 multiletter control sequences out of 15000+600000
+ 571559 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,1377b,1887s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1065,27 +1088,26 @@ cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fit0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfrm1000.pfb>
-Output written on notebook.pdf (26 pages, 1264277 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfit0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm1000.pfb>
+Output written on notebook.pdf (26 pages, 1255876 bytes).
 PDF statistics:
- 1103 PDF objects out of 1200 (max. 8388607)
- 948 compressed objects within 10 object streams
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 945 compressed objects within 10 object streams
  202 named destinations out of 1000 (max. 500000)
  1169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

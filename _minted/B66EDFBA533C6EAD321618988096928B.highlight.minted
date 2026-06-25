@@ -1,8 +1,5 @@
 \begin{MintedVerbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
-\PYG{k+kt}{uint64\PYGZus{}t}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n}{first}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{FIXED\PYGZus{}RANDOM}\PYG{p}{)}\PYG{p}{;}
-\PYG{k+kt}{uint64\PYGZus{}t}\PYG{+w}{ }\PYG{n}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{p}\PYG{p}{.}\PYG{n}{second}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{FIXED\PYGZus{}RANDOM}\PYG{p}{)}\PYG{p}{;}
-\PYG{k}{return}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{\PYGZca{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{y}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{p}{)}\PYG{p}{;}
-\PYG{c+c1}{// another way (faster)}
+\PYG{c+c1}{// Custom Hash for Pairs/Tuples}
 \PYG{k+kt}{uint64\PYGZus{}t}\PYG{+w}{ }\PYG{n}{x}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{(}\PYG{p}{(}\PYG{k+kt}{uint64\PYGZus{}t}\PYG{p}{)}\PYG{n}{p}\PYG{p}{.}\PYG{n}{first}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{32}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZca{}}\PYG{+w}{ }\PYG{p}{(}\PYG{k+kt}{uint64\PYGZus{}t}\PYG{p}{)}\PYG{n}{p}\PYG{p}{.}\PYG{n}{second}\PYG{p}{;}
 \PYG{k}{return}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{FIXED\PYGZus{}RANDOM}\PYG{p}{)}\PYG{p}{;}
 \PYG{c+c1}{// for tuple}
@@ -10,5 +7,4 @@
 \PYG{k+kt}{uint64\PYGZus{}t}\PYG{+w}{ }\PYG{n}{y}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{b}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{FIXED\PYGZus{}RANDOM}\PYG{p}{)}\PYG{p}{;}
 \PYG{k+kt}{uint64\PYGZus{}t}\PYG{+w}{ }\PYG{n}{z}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{c}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n}{FIXED\PYGZus{}RANDOM}\PYG{p}{)}\PYG{p}{;}
 \PYG{k}{return}\PYG{+w}{ }\PYG{n}{splitmix64}\PYG{p}{(}\PYG{n}{x}\PYG{+w}{ }\PYG{o}{\PYGZca{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{y}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZca{}}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{z}\PYG{+w}{ }\PYG{o}{\PYGZlt{}}\PYG{o}{\PYGZlt{}}\PYG{+w}{ }\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{p}{)}\PYG{p}{;}
-
 \end{MintedVerbatim}
