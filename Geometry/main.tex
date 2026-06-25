@@ -1034,4 +1034,51 @@ cosecant & udf & $2$ & $\sqrt{2}$ & $\frac{2}{\sqrt{3}}$ & $1$ \\
 \includegraphics[width=0.7\linewidth]{images/shape-image-2.png}\\
 \includegraphics[width=1\linewidth]{images/shape-image-3.png}
 
+\section*{CRT}
+
+\begin{minted}[fontsize=\scriptsize, breaklines]{cpp}
+ll educidean_algo(ll a, ll b, ll &x, ll &y) {
+  if (b == 0) {x = 1; y = 0; return a;}
+  ll x1, y1;
+  ll d = educidean_algo(b, a % b, x1, y1);
+  x = y1;
+  y = x1 - ((a / b) * y1);
+  return d;
+}
+
+ll invMod_p_q(ll a, ll m) {
+  ll x, y;
+  educidean_algo(a, m, x, y);
+  return (x + m) % m;
+}
+
+pair<ll, ll> CRT(ll a1, ll m1, ll a2, ll m2) {
+  ll n1, n2, ansM = m1 * m2;
+  educidean_algo(m1, m2, n1, n2);
+  ll res = (
+      ((((a1 * n2) % ansM) * m2) % ansM) +
+      ((((a2 * n1) % ansM) * m1) % ansM) +
+      ansM
+    ) % ansM;
+  return {res, ansM};
+}
+\end{minted}
+
+\section*{C-Hash for Pairs}
+
+\begin{minted}[fontsize=\scriptsize, breaklines]{cpp}
+uint64_t x = splitmix64(p.first + FIXED_RANDOM);
+uint64_t y = splitmix64(p.second + FIXED_RANDOM);
+return splitmix64(x ^ (y << 1));
+// another way (faster)
+uint64_t x = ((uint64_t)p.first << 32) ^ (uint64_t)p.second;
+return splitmix64(x + FIXED_RANDOM);
+// for tuple
+uint64_t x = splitmix64(a + FIXED_RANDOM);
+uint64_t y = splitmix64(b + FIXED_RANDOM);
+uint64_t z = splitmix64(c + FIXED_RANDOM);
+return splitmix64(x ^ (y << 1) ^ (z << 2));
+
+\end{minted}
+
 \end{multicols*}

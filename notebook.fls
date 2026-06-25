@@ -833,6 +833,14 @@ INPUT ./images/shape-image-3.png
 INPUT ./images/shape-image-3.png
 INPUT ./images/shape-image-3.png
 INPUT ./images/shape-image-3.png
+INPUT ./_minted/CE31D39E6270303BF2BCCBFBC979F1AD.highlight.minted
+INPUT ./_minted/CE31D39E6270303BF2BCCBFBC979F1AD.highlight.minted
+INPUT _minted/CE31D39E6270303BF2BCCBFBC979F1AD.highlight.minted
+INPUT ./_minted/488ADE24F1AF4670A985C6B2C38B89EC.highlight.minted
+INPUT ./_minted/488ADE24F1AF4670A985C6B2C38B89EC.highlight.minted
+INPUT _minted/488ADE24F1AF4670A985C6B2C38B89EC.highlight.minted
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmitt10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT notebook.aux
 INPUT ./notebook.out
 INPUT ./notebook.out
